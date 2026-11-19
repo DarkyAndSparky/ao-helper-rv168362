@@ -1,0 +1,150 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// ENG_HTML
+//
+ENG_LOCALE.CSS ENG_HTML                 "localeENG.css"
+ENG_LOCALE.JS ENG_HTML                   "LocaleENG.js"
+ENG_IMAGES_LOGO_IE5.JPG ENG_HTML                 "images\\logo_ie5.jpg"
+ENG_IMAGES_LOGO.PNG     ENG_HTML									"images\\logo.png"
+ENG_BTN_ACCOUNT.GIF     ENG_HTML                 "images\\account.gif"
+ENG_BTN_ACCOUNT_DISABLED.GIF ENG_HTML            "images\\account_disabled.gif"
+ENG_BTN_ACCOUNT_DOWN.GIF ENG_HTML                "images\\account_down.gif"
+ENG_BTN_ACCOUNT_HOVER.GIF ENG_HTML               "images\\account_hover.gif"
+ENG_BTN_ACCOUNT_NOACTIVE.GIF ENG_HTML            "images\\account_noactive.gif"
+ENG_BTN_OK.GIF          ENG_HTML                 "images\\ok.gif"
+ENG_BTN_OK_DOWN.GIF     ENG_HTML                 "images\\ok_down.gif"
+ENG_BTN_OK_HOVER.GIF    ENG_HTML                 "images\\ok_hover.gif"
+ENG_BTN_OK_DISABLED.GIF ENG_HTML                 "images\\ok_disabled.gif"
+
+ENG_BTN_FWOK.GIF          ENG_HTML                 "images\\ok.gif"
+ENG_BTN_FWOK_DOWN.GIF     ENG_HTML                 "images\\ok_down.gif"
+ENG_BTN_FWOK_HOVER.GIF    ENG_HTML                 "images\\ok_hover.gif"
+ENG_BTN_FWOK_DISABLED.GIF ENG_HTML                 "images\\ok_disabled.gif"
+
+ENG_BTN_ABORT.GIF      ENG_HTML                 "images\\abort.gif"
+ENG_BTN_ABORT_DOWN.GIF ENG_HTML                 "images\\abort_down.gif"
+ENG_BTN_ABORT_HOVER.GIF ENG_HTML                "images\\abort_hover.gif"
+ENG_BTN_ABORT_DISABLED.GIF ENG_HTML             "images\\abort_disabled.gif"
+
+ENG_BTN_RETRY.GIF      ENG_HTML                 "images\\retry.gif"
+ENG_BTN_RETRY_DOWN.GIF ENG_HTML                 "images\\retry_down.gif"
+ENG_BTN_RETRY_HOVER.GIF ENG_HTML                "images\\retry_hover.gif"
+ENG_BTN_RETRY_DISABLED.GIF ENG_HTML             "images\\retry_disabled.gif"
+
+ENG_BTN_SKIP.GIF      ENG_HTML                 "images\\skip.gif"
+ENG_BTN_SKIP_DOWN.GIF ENG_HTML                 "images\\skip_down.gif"
+ENG_BTN_SKIP_HOVER.GIF ENG_HTML                "images\\skip_hover.gif"
+ENG_BTN_SKIP_DISABLED.GIF ENG_HTML             "images\\skip_disabled.gif"
+
+ENG_BTN_CANCEL.GIF      ENG_HTML                 "images\\cancel.gif"
+ENG_BTN_CANCEL_DOWN.GIF ENG_HTML                 "images\\cancel_down.gif"
+ENG_BTN_CANCEL_HOVER.GIF ENG_HTML                "images\\cancel_hover.gif"
+ENG_BTN_CANCEL_DISABLED.GIF ENG_HTML             "images\\cancel_disabled.gif"
+ENG_BTN_FORUM.GIF       ENG_HTML                 "images\\forum.gif"
+ENG_BTN_FORUM_DISABLED.GIF ENG_HTML              "images\\forum_disabled.gif"
+ENG_BTN_FORUM_DOWN.GIF  ENG_HTML                 "images\\forum_down.gif"
+ENG_BTN_FORUM_HOVER.GIF ENG_HTML                 "images\\forum_hover.gif"
+ENG_BTN_FORUM_NOACTIVE.GIF ENG_HTML              "images\\forum_noactive.gif"
+ENG_BTN_PLAY.GIF        ENG_HTML                 "images\\play.gif"
+ENG_BTN_PLAY_DISABLED.GIF ENG_HTML               "images\\play_disabled.gif"
+ENG_BTN_PLAY_DOWN.GIF   ENG_HTML                 "images\\play_down.gif"
+ENG_BTN_PLAY_HOVER.GIF  ENG_HTML                 "images\\play_hover.gif"
+ENG_BTN_PLAY_NOACTIVE.GIF  ENG_HTML              "images\\play_noactive.gif"
+ENG_BTN_REGISTRATION.GIF ENG_HTML                "images\\registration.gif"
+ENG_BTN_REGISTRATION_DOWN.GIF ENG_HTML           "images\\registration_down.gif"
+ENG_BTN_REGISTRATION_HOVER.GIF ENG_HTML          "images\\registration_hover.gif"
+ENG_BTN_REGISTRATION_DISABLED.GIF ENG_HTML       "images\\registration_disabled.gif"
+ENG_BTN_REGISTRATION_NOACTIVE.GIF ENG_HTML       "images\\registration_noactive.gif"
+ENG_BTN_EXIT.GIF        ENG_HTML                 "images\\exit.gif"
+ENG_BTN_EXIT_DISABLED.GIF ENG_HTML               "images\\exit_disabled.gif"
+ENG_BTN_EXIT_DOWN.GIF   ENG_HTML                 "images\\exit_down.gif"
+ENG_BTN_EXIT_HOVER.GIF  ENG_HTML                 "images\\exit_hover.gif"
+ENG_BTN_EXIT_NOACTIVE.GIF  ENG_HTML              "images\\exit_noactive.gif"
+ENG_BTN_SUPER_CANCEL.GIF ENG_HTML                "images\\super_cancel.gif"
+ENG_BTN_SUPER_CANCEL_DISABLED.GIF ENG_HTML       "images\\super_cancel_disabled.gif"
+ENG_BTN_SUPER_CANCEL_DOWN.GIF ENG_HTML           "images\\super_cancel_down.gif"
+ENG_BTN_SUPER_CANCEL_HOVER.GIF ENG_HTML          "images\\super_cancel_hover.gif"
+ENG_BTN_SUPER_CANCEL_NOACTIVE.GIF ENG_HTML       "images\\super_cancel_noactive.gif"
+ENG_BTN_SUPER_OK.GIF    ENG_HTML                 "images\\super_ok.gif"
+ENG_BTN_SUPER_OK_DISABLED.GIF ENG_HTML           "images\\super_ok_disabled.gif"
+ENG_BTN_SUPER_OK_DOWN.GIF ENG_HTML               "images\\super_ok_down.gif"
+ENG_BTN_SUPER_OK_HOVER.GIF ENG_HTML              "images\\super_ok_hover.gif"
+ENG_BTN_SUPER_OK_NOACTIVE.GIF ENG_HTML           "images\\super_ok_noactive.gif"
+ENG_BTN_UPDATE_NOACTIVE.GIF ENG_HTML             "images\\update_noactive.gif"
+ENG_BTN_UPDATE_HOVER.GIF ENG_HTML                "images\\update_hover.gif"
+ENG_BTN_UPDATE.GIF      ENG_HTML                 "images\\update.gif"
+ENG_BTN_UPDATE_DISABLED.GIF ENG_HTML             "images\\update_disabled.gif"
+ENG_BTN_UPDATE_DOWN.GIF ENG_HTML                 "images\\update_down.gif"
+ENG_BTN_REPAIR.GIF ENG_HTML											"images\\repair.gif"
+ENG_BTN_REPAIR_DISABLED.GIF ENG_HTML             "images\\repair_disabled.gif"
+ENG_BTN_REPAIR_DOWN.GIF ENG_HTML                 "images\\repair_down.gif"
+ENG_BTN_REPAIR_HOVER.GIF ENG_HTML                "images\\repair_hover.gif"
+ENG_BTN_REPAIR_NOACTIVE.GIF ENG_HTML             "images\\repair_noactive.gif"
+ENG_BTN_OK_SMART.GIF ENG_HTML										"images\\ok_smart.gif"
+ENG_BTN_OK_SMART_DISABLED.GIF ENG_HTML           "images\\ok_smart_disabled.gif"
+ENG_BTN_OK_SMART_DOWN.GIF ENG_HTML               "images\\ok_smart_down.gif"
+ENG_BTN_OK_SMART_HOVER.GIF ENG_HTML              "images\\ok_smart_hover.gif"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

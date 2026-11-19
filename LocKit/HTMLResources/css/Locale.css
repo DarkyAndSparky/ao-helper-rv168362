@@ -1,0 +1,196 @@
+@import url("/RUS_HTML/RUS_LOCALE.CSS");
+@import url("/ENG_HTML/ENG_LOCALE.CSS");
+@import url("/ESP_HTML/ESP_LOCALE.CSS");
+@import url("/FRA_HTML/FRA_LOCALE.CSS");
+@import url("/GER_HTML/GER_LOCALE.CSS");
+
+#logo {
+	background:top left no-repeat;	
+}
+
+
+/* ------------ registration ------------- */	
+#button-registration, #image-registration {
+	position:absolute;
+	left:25px;
+	top:464px;
+	width:113px;
+	height:32px;
+}
+
+#button-registration {
+	z-index:10;
+}
+
+#image-registration div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:113px;
+	height:32px;
+}
+
+	
+/* ----------- account -------------- */	
+#button-account, #image-account {
+	position:absolute;
+	left:25px;
+	top:494px;
+	width:113px;
+	height:32px;
+}
+
+#button-account {
+	z-index:10;
+}
+
+#image-account div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:113px;
+	height:32px;
+}
+	
+/* ----------- forum -------------- */	
+#button-forum, #image-forum {
+	position:absolute;
+	left:25px;
+	top:524px;
+	width:113px;
+	height:32px;
+}
+
+#button-forum {
+	z-index:10;
+}
+
+#image-forum div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:113px;
+	height:32px;
+}
+
+/* ---------- play --------------- */	
+#image-play,
+#image-exit,
+#image-update,
+#image-super-ok,
+#image-super-cancel {
+	position:absolute;
+	right:24px;
+	bottom:32px;
+	width:91px;
+	height:91px;
+	display:none;
+}
+
+#button-play,
+#button-exit,
+#button-update,
+#button-super-ok,
+#button-super-cancel {
+	position:absolute;
+	right:30px;
+	bottom:38px;
+	width:76px;
+	height:76px;
+	z-index:10;
+	display:none;
+}
+
+body #button-super-cancel,
+ body #image-super-cancel
+{
+	display:block;
+}
+
+#image-play div,
+#image-exit div,
+#image-update div,
+#image-super-ok div,
+#image-super-cancel div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:91px;
+	height:91px;
+}
+	
+/* ---------- ok ------- */
+#button-ok, #image-ok {
+	position:absolute;
+	left:214px;
+	bottom:0;
+	width:104px;
+	height:32px;
+	display:none;	
+}
+
+
+/* ---------- cancel ------- */
+#button-cancel, #image-cancel {
+	position:absolute;
+	left:321px;
+	bottom:0;
+	width:104px;
+	height:32px;
+	display:none;
+}
+
+
+/* ---------- abort ------- */
+#button-abort, #image-abort {
+	position:absolute;
+	left:70px;
+	bottom:0;
+	width:104px;
+	height:32px;
+	display:none;	
+}
+
+
+/* ---------- retry ------- */
+#button-retry, #image-retry {
+	position:absolute;
+	left:197px;
+	bottom:0;
+	width:104px;
+	height:32px;
+	display:none;	
+}
+
+/* ---------- skip ------- */
+#button-skip, #image-skip {
+	position:absolute;
+	left:321px;
+	bottom:0;
+	width:104px;
+	height:32px;
+	display:none;	
+}
+
+
+
+
+#button-cancel,
+#button-ok,
+#button-retry,
+#button-abort,
+#button-skip {
+	z-index:101;
+}
+
+#image-cancel div,
+#image-ok div,
+#image-retry div,
+#image-abort div,
+#image-skip div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:113px;
+	height:32px;
+}

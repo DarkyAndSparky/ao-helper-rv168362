@@ -1,0 +1,27 @@
+FileAndLinePrintedToFile( false )
+EnableChannel( sound, false )
+EnableChannel( msg, false )
+EnableChannel( gm, false )
+EnableChannel( server, false )
+EnableChannel( console, true )
+EnableChannel( console::cheats, false )
+EnableChannel( serverconsole, false )
+EnableChannel( common, true )
+
+EnableChannel( net, true )
+
+AddListener( INFO, server, FileOutPut, MessageOnly )
+AddListener( INFO, console, FileOutPut, MessageOnly )
+
+AddListener( WARNING, server, FileOutPut, MessageOnly )
+AddListener( WARNING, console, FileOutPut, MessageOnly )
+
+AddListener( INFO, net, FileOutPut, MessageOnly )
+AddListener( WARNING, net, FileOutPut, MessageOnly )
+AddListener( ERROR, net, FileOutPut, MessageOnly )
+AddListener( FATAL, net, FileOutPut, MessageOnly )
+
+ADD_LOG_LISTENER_FOR_ALL_LEVELS( assert, FileOutPut, Tab)
+ADD_LOG_LISTENER_FOR_ALL_LEVELS( assert, Printf, Tab)
+
+AddListener( ERROR, common, FileOutPut, MessageOnly )

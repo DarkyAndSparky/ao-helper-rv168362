@@ -1,0 +1,81 @@
+body.rus #image-fwaccept div {
+	background:url('/RUS_HTML/RUS_BTN_FWACCEPT.GIF') top left no-repeat;
+}
+	body.rus #image-fwaccept div.hover {
+		background:url('/RUS_HTML/RUS_BTN_FWACCEPT_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-fwaccept div.down {
+		background:url('/RUS_HTML/RUS_BTN_FWACCEPT_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-fwaccept div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_FWACCEPT_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-fwaccept div {
+			background:url('/RUS_HTML/RUS_BTN_FWACCEPT_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-fwaccept div.hover {
+				background:url('/RUS_HTML/RUS_BTN_FWCANCEL.GIF') top left no-repeat;
+			}
+
+
+body.rus #image-fwcancel div {
+	background:url('/RUS_HTML/RUS_BTN_FWCANCEL.GIF') top left no-repeat;
+}
+	body.rus #image-fwcancel div.hover {
+		background:url('/RUS_HTML/RUS_BTN_FWCANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-fwcancel div.down {
+		background:url('/RUS_HTML/RUS_BTN_FWCANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-fwcancel div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_FWCANCEL_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-fwcancel div {
+			background:url('/RUS_HTML/RUS_BTN_FWCANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-fwcancel div.hover {
+				background:url('/RUS_HTML/RUS_BTN_FWCANCEL.GIF') top left no-repeat;
+			}
+
+			
+body.rus #image-fwexit div {
+	background:url('/RUS_HTML/RUS_BTN_FWCANCEL.GIF') top left no-repeat;
+}
+	body.rus #image-fwexit div.hover {
+		background:url('/RUS_HTML/RUS_BTN_FWCANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-fwexit div.down {
+		background:url('/RUS_HTML/RUS_BTN_FWCANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-fwexit div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_FWCANCEL_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-fwexit div {
+			background:url('/RUS_HTML/RUS_BTN_FWCANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-fwexit div.hover {
+				background:url('/RUS_HTML/RUS_BTN_FWCANCEL.GIF') top left no-repeat;
+			}			
+			
+			
+/* ---------- fwok ------- */
+body.rus #image-fwok div 
+{
+	background:url('/RUS_HTML/RUS_BTN_FWOK.GIF') top left no-repeat;
+}
+	body.rus #image-fwok div.hover {
+		background:url('/RUS_HTML/RUS_BTN_FWOK_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #image-fwok div.down {
+		background:url('/RUS_HTML/RUS_BTN_FWOK_DOWN.GIF') top left no-repeat;
+	}			

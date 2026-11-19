@@ -1,0 +1,266 @@
+@import url("/RUS_HTML/RUS_FIREWALL.CSS");
+@import url("/ENG_HTML/ENG_FIREWALL.CSS");
+@import url("/FRA_HTML/FRA_FIREWALL.CSS");
+@import url("/GER_HTML/GER_FIREWALL.CSS");
+@import url("/ESP_HTML/ESP_FIREWALL.CSS");
+
+html {
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:#0a322d;
+}
+
+/* ------------ fwaccept & fwaccept ------------- */	
+#button-fwaccept, #image-fwaccept,
+#button-fwcancel, #image-fwcancel,
+#button-fwok, #image-fwok,
+#button-fwexit, #image-fwexit {
+	position:absolute;
+	left:380px;
+	top:227px;
+	width:113px;
+	height:32px;
+}
+
+#button-fwaccept,
+#button-fwcancel,
+#button-fwok,
+#button-fwexit {
+	z-index:10;
+}
+
+#image-fwaccept div,
+#image-fwcancel div,
+#image-fwok div,
+#image-fwexit div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:113px;
+	height:32px;
+}
+
+#button-fwaccept, #image-fwaccept {
+	left:380px;
+	top:227px;
+}
+
+#button-fwcancel, #image-fwcancel {
+	left:500px;
+	top:227px;
+}
+
+#button-fwok, #image-fwok {
+	left:380px;
+	top:60px;
+}
+
+#button-fwexit, #image-fwexit {
+	left:500px;
+	top:60px;
+}
+
+/* ---------- button close --------------- */	
+#button-close, #image-close {
+	position:absolute;
+	right:3px;
+	top:4px;
+	width:22px;
+	height:21px;
+}
+
+#button-close {
+	z-index:10;
+}
+
+#image-close div {
+	width:100%;
+	height:100%;
+	background:url('/RT_HTML/IDR_BTN_CLOSE.GIF') top left no-repeat;
+}
+	#image-close div.hover {
+		background:url('/RT_HTML/IDR_BTN_CLOSE_HOVER.GIF') top left no-repeat;
+	}
+	
+	body div #image-close div.down {
+		background:url('/RT_HTML/IDR_BTN_CLOSE_DOWN.GIF') top left no-repeat;
+	}
+	
+		div.noactive #image-close div {
+			background:url('/RT_HTML/IDR_BTN_CLOSE_NOACTIVE.GIF') top left no-repeat;
+		}
+			
+			div.noactive #image-close div.hover {
+				background:url('/RT_HTML/IDR_BTN_CLOSE.GIF') top left no-repeat;
+			}	
+	
+
+
+HTML,BODY,DIV,SPAN,APPLET,OBJECT,IFRAME,H1,H2,H3,H4,H5,H6,P,BLOCKQUOTE,PRE,A,ABBR,ACRONYM,ADDRESS,BIG,CITE,CODE,DEL,DFN,
+EM,FONT,IMG,INS,KBD,Q,S,SAMP,SMALL,STRIKE,STRONG,SUB,SUP,TT,VAR,HR,B,U,I,CENTER,DL,DT,DD,OL,UL,LI,FIELDSET,FORM,LABEL,
+LEGEND,TABLE,CAPTION,TBODY,TFOOT,THEAD,TR,TH,TD{
+	padding:0;
+	margin:0;
+	border:none;
+	outline:none;
+	vertical-align:baseline;
+	font-family:inherit;
+	}
+
+BODY,TEXTAREA,INPUT,SELECT {
+	font:12px Tahoma, Arial, Verdana, sans-serif;
+	}
+BODY {
+	background:#fff;
+	}
+a {	
+	color:#0090ff; 
+	text-decoration:underline;
+	}
+a:hover {
+	text-decoration:underline;
+	color:#fff; }
+
+img {border: 0;}
+a img {border:0}
+
+.clear {clear: both; font-size: 1px; height: 1px; line-height: 1px}
+
+
+.window{
+	color:#fff;
+	position:absolute;
+	left:0;
+	top:0;
+	width:642px;
+	}
+
+	
+.head_window{
+	overflow:hidden;
+	height:1%;
+	background: url('/RT_HTML/IDR_IMAGES_FIREWALL_HEAD_WINDOW.GIF') no-repeat 0 0;
+	}
+#attention{
+	font:15px Arial, Tahoma, san-serif;
+	float:left;
+	margin:7px 0 0 10px;
+	padding-bottom:3px;
+	color:Yellow;
+	height:20px;
+	}	
+	
+.body_window{
+	position:relative;
+	float:left;
+	z-index:199;
+	width:632px;
+	height:263px;
+	padding:5px 0 0 10px;
+	background: url('/RT_HTML/IDR_IMAGES_FIREWALL_BG_WINDOW.GIF') repeat-y 0 0;
+	}
+	
+.post_window{
+	position:relative;
+	z-index:199;
+	float:left;
+	width:632px;
+	height:100px;
+	padding:5px 0 0 10px;
+	background: url('/RT_HTML/IDR_IMAGES_FIREWALL_BG_WINDOW.GIF') repeat-y 0 0;
+	}
+
+#post_window{	
+	position:relative;
+	z-index:200;
+	width:530px;
+	}
+.body_window .text_window{	
+	position:relative;
+	z-index:200;
+	width:530px;
+	height:220px;
+	}			
+*html .text_window p{
+	font-size:12px;
+	}
+*html .text_window ul{
+	font-size:12px;
+	}
+	
+.foot_window{
+	position:absolute;
+	bottom:-5px;
+	left:0;
+	width:642px;
+	height:5px;
+	background: url('/RT_HTML/IDR_IMAGES_FIREWALL_FOOT_WINDOW.GIF') no-repeat 0 0;
+	}
+*html .foot_window{
+		bottom:-15px;
+	}	
+*html .text_window {
+	height:1%;
+	}
+.text_window
+{
+	font:13px Arial, Tahoma, san-serif;
+	overflow:hidden;
+	padding-left:10px;
+	}
+	.text_window p{
+		padding-bottom:20px;
+		}
+	.text_window ul{
+		padding-bottom:20px;
+		list-style:none;
+		}
+		.text_window li{
+			background: url('/RT_HTML/IDR_IMAGES_FIREWALL_BULLET.GIF') no-repeat 0 5px;
+			padding:0 0 2px 35px;
+			}
+.yellow{
+	color:#fde025;
+	}
+	
+	
+	
+	
+.icon_window {
+	float:left;
+	width:48px;
+	height:48px;
+	}
+.exclam
+{
+	background: url('/RT_HTML/IDR_MSGBOX_ICON_EXCLAM.GIF') no-repeat 0 0;	
+}
+	
+.quest{
+	background: url('/RT_HTML/IDR_MSGBOX_ICON_QUESTION.GIF') no-repeat 0 0;
+	}
+.pling{
+		background: url('/RT_HTML/IDR_IMAGES_FIREWALL_PLING_ICON.GIF') no-repeat 0 0;
+	}
+
+	
+	
+.attention,
+.close,
+.but{
+	overflow:hidden;
+	text-indent:-3000px;
+	}
+.but{
+	float:right;
+	width:105px;
+	height:30px;
+	}
+	
+	
+	
+	
+	
+	
+	

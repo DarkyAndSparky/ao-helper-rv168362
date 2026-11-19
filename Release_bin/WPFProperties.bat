@@ -1,0 +1,1 @@
+start EditorGui.exe -module:wpfproperties

@@ -1,0 +1,267 @@
+exclude 
+        // exclude resource-related classes
+        *.^* + implements base.XDBSerializable and
+        *.^* + implements buildInTypes.LongCoord and
+        *.^* + implements resourceDB.compression.Codec and
+
+        // exclude static main
+        *.^*^ static main(*) and
+
+        // exclude factory methods
+        *.* public static getIt(*) and
+        *.* public static createDefault(*) and
+        *.* public static getInstance(*) and
+
+        // exclude net stats factory
+        net.stats.^NetChannelsFactory and
+        *.^* implements net.stats.NetChannelsFactory and
+
+        // exclude resources
+        resourceDB.resources. and
+        resourceDB.resources.Resource and
+        *.^* + extends resourceDB.resources.Resource and
+        *.* resourceDB.resources.ResourceId resourceId and
+        *.*$NoCode + and
+        @annotations.attributes.EditableClass *.^* and
+        gameMechanics.world.behaviour.basicComponents.^AIState and
+        *.^* implements gameMechanics.world.behaviour.basicComponents.AIState and
+        // used in resources (brains) but not marked as @EditableClass
+        gameMechanics.world.mob.behaviour.aiEvents.^* and
+        gameMechanics.world.mob.behaviour.aiMsgs.^* and
+        gameMechanics.world.creature.^MasterAttackedEvent and
+        gameMechanics.world.pet.^PetStartAttackEvent and
+        gameMechanics.elements.events.^EventMobTeleported and
+        gameMechanics.elements.events.^EventDeath and
+        gameMechanics.elements.events.^StartRevengeEvent and
+
+        // exclude context ids
+        *.* static int s_abonentContextId and
+        *.* static int s_localeContextId and
+        *.* static int s_contextId and
+        *.* static int s_streamContextId and
+        *.* static int s_accountContextId and
+        *.*$ContextId static int s_contextId and
+        *.*$ContextId and
+        *.ContextId and
+
+        // exclude serialization ids
+        *.* static final short SERIALIZATION_ID and
+        *.* static short s_serializationId and
+
+        // exclude revision id
+        system.base.revision.^RevisionId and
+        *.* static final int REVISION_ID and
+
+        // exclude loggers
+        *.^* implements org.apache.log4j.Appender and
+
+        // exclude DB classes used in configuration
+        dbcommons.jdbc.dao.sqlexecutor.^SQLExecutor and
+        *.^* + extends dbcommons.jdbc.dao.sqlexecutor.SQLExecutor and
+        dbcommons.jdbc.pool.^ConnectionsPool and
+        *.^* + extends dbcommons.jdbc.pool.ConnectionsPool and
+        dbcommons.jdbc.schemecreator.^SchemeCreator and
+        *.^* + extends dbcommons.jdbc.schemecreator.SchemeCreator and
+        dbcommons.jdbc.schemeupdater.^SchemeUpdater and
+        *.^* + extends dbcommons.jdbc.schemeupdater.SchemeUpdater and
+
+        // exclude account server messages
+        //         accountServerMsgs.*.^* implements io.cppSerialization.CppOutSerializable, io.cppSerialization.CppInSerializable
+        //replicationAnnotations.^ToAccountServerCmd and
+        //replicationAnnotations.^FromAccountServerEvent and
+        @replicationAnnotations.ToAccountServerCmd *.^*^ and
+        @replicationAnnotations.FromAccountServerEvent *.^*^ and
+
+        @accountShardCommons.AccountServerMsg *.^*^ and
+
+        // exclude itemmall
+        //itemmall.^ItemMallOutMsg and
+        //itemmall.^ItemMallInMsg and
+        @itemmall.ItemMallInMsg *.^*^ and
+        @itemmall.ItemMallOutMsg *.^*^ and
+
+        // exclude commands and events
+        @replicationAnnotations.ReplicateCmd *.^*^ and
+        @replicationAnnotations.ReplicateOccurence *.^*^ and
+
+        *.* static io.cppSerialization.PackableObj$Creator creator and
+        *.* static replication.classes.Creator creator and
+
+        // exclude cpp serializable
+        ioBase.^CppSerializable and
+        replicationAnnotations.^ToAccountServerCmd and
+        replicationAnnotations.^FromAccountServerEvent and
+
+        // exlcude client commands/events
+
+        @torrentServer.TorrentCmd *.^* implements ioBase.CppSerializable and
+        @torrentServer.TorrentEvent *.^* implements ioBase.IdedCppSerializable and
+
+        @replicationAnnotations.ReplicateCmd *.^* extends msgSystem.locales.Msg and
+        @replicationAnnotations.ReplicateOccurence *.^* extends msgSystem.events.Signed and
+
+        // server replication
+        *.*Replica and
+        @replicationAnnotations.ReplicateClassServer *.* and
+
+        // exclude logging
+        logging.*.^* + and
+
+        // FUCKING ASSERTIONS
+        gameMechanics.world.behaviour.genericBrain.* and
+        replicaBuild.serverReplica.objectsConstructorImpl.* and
+        space.scaner.internal.threaded.* and
+        space.scaner.internal.local.^LocalPrimitiveScaner + and
+        space.scaner.internal.local.^LocalPrimitiveScaner$Obj + and
+        tools.containers.hashMaps.^LongObjMultiHashMap + and
+        tools.containers.hashMaps.LongObjMultiHashMap^ and
+        tools.containers.hashMaps.^LongObjMultiHashMap$TableIterator + and
+
+        tools.containers.hashMaps.^IntObjMultiHashMap + and
+        tools.containers.hashMaps.IntObjMultiHashMap^ and
+        tools.containers.hashMaps.^IntObjMultiHashMap$TableIterator + and
+
+        replicaBuild.^ReplicaCallbacksHandler + and
+        replicaBuild.ReplicaCallbacksHandler^ and
+        replicaBuild.^ReplicaCallbacksHandler$UnreplicateCallback + and
+
+        // exclude tickable because of class not found... hm...
+        tools.tickables.^Tickable and
+        system.context.^Global and
+
+        // due to exception: java.lang.NoClassDefFoundError: msgSystem/locales/Abonent
+        msgSystem.locales.^Abonent and
+
+        // due to exception: java.lang.NoClassDefFoundError: identity/Address
+        identity.^Address and
+
+        // due to exception: java.lang.NoClassDefFoundError: tools/reflection/ClassesFinder$FoundCallback
+        tools.reflection.^ClassesFinder and
+        tools.reflection.^ClassesFinder$FoundCallback and
+
+        // due to exception: java.lang.NoClassDefFoundError: io/cppSerialization/SerializationException
+        ioBase.^SerializationException and
+
+        // not found in launcher
+        net.stats.^NetStatsChannel and
+
+        // used in outer classes like glues in client.jar
+        ioBase.^* + and
+
+        *.^* + extends gameMechanics.world.avatar.CmdAvatar and
+
+        @replicationAnnotations.ConsoleCmd *.* + and
+        msgSystem.baseMessages.CmdToServer serverAddress and
+        @replicationAnnotations.ConsoleOut *.* + and
+
+        // everything that goes to the outer world via our api
+        @replicationAnnotations.OuterWorldAPI *.^* and
+        @replicationAnnotations.OuterWorldAPI *.*^ and
+        @replicationAnnotations.OuterWorldAPI *.* + and
+
+        // connectors (their names used in configs)
+
+        *.^* extends billingserver.connector.BillingServerConnector and
+        *.^* extends itemmall.ItemMallConnector and
+
+        // billing db factory
+        *.^* extends billingserver.billingdb.BillingDBContextFactory and
+
+        // logserver-related
+        *.^* implements logging.channels.ChannelEngineFactory and
+        logging.*.^* + and
+        logging.*.^*^ and
+        logserver.*.^* + and
+        logserver.*.^*^ and
+        *.^*^ extends logging.channels.Channel and
+
+        // gametool-related
+        gametool.^* + and
+        gametool.^*^ and
+        gametool.*.^* + and
+        gametool.*.^*^ and
+        query.^* + and
+        query.^*^ and
+        query.*.^* + and
+        query.*.^*^ and
+        dbcontext.^* + and
+        dbcontext.^*^ and
+        dbcontext.*.^* + and
+        dbcontext.*.^*^ and
+
+        // server console
+        serverConsole.*.^* implements ioBase.CppInSerializable and
+        serverConsole.*.^* implements ioBase.CppOutSerializable and
+
+        // compiler
+        tools.reflection.objectsFactory.^ObjectsConstructor and
+        tools.reflection.objectsFactory.ObjectsConstructor$ObjectsConstructorGenerated and
+        tools.reflection.objectsFactory.ObjectsConstructor$ObjectsConstructorGenerated + and
+        tools.reflection.objectsFactory. and
+
+        // system
+        system.base.singleton.^Singleton and
+
+        // account server authentication (used in configuration)
+        accountserver.authenticator.^Authenticator and
+        *.^* + extends accountserver.authenticator.Authenticator and
+
+        // billing accounter
+        billingserver.accounter.^Accounter and
+        *.^* + extends billingserver.accounter.Accounter and
+        billingserver.accounter.galaimpl.galabillingapi.^GalaBillingAPIConnector and
+        *.^* + extends billingserver.accounter.galaimpl.galabillingapi.GalaBillingAPIConnector and
+
+        // exclude tools.commons
+        tools.commons.*.^* + and
+        tools.commons.^* + and
+
+        // exclude asserts.Verify because they are used in our fixed version of trove
+        asserts.^Verify + and
+        asserts.Verify^ and
+
+        // logserver
+
+        statistics.*.^* + and
+        statistics.^* + and
+        statisticsModule.*.^* + and
+        statisticsModule.^* + and
+        statisticsProbes.*.^* + and
+        statisticsProbes.^* + and
+        templates.*.^* + and
+        templates.^* + and
+        logging.*.^* + and
+        logging.^* + and
+        dbcontext.*.^* + and
+        dbcontext.^* + and
+        jdomext.*.^* + and
+        jdomext.^* + and
+        logserver.*.^* + and
+        logserver.^* + and
+        config.logserver.*.^* + and
+        config.logserver.^* + and
+        alarm.*.^* + and
+        alarm.^* + and
+        sql.text.*.^* + and
+        sql.text.^* + and
+
+        // gametool
+
+        appServer.*.^* + and
+        appServer.^* + and
+        appserver.*.^* + and
+        appserver.^* + and
+        gametool.*.^* + and
+        gametool.^* + and
+        tuner.*.^* + and
+        tuner.^* + and
+        mngdb.*.^* + and
+        mngdb.^* + and
+        templates.*.^* + and
+        templates.^* + and
+        query.*.^* + and
+        query.^* + and
+
+        // api
+        apiVersions.*.^* + and
+        apiVersions.^* + and

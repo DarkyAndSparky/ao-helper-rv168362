@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="module_obfushelpers" default="compile.module.obfushelpers">
+  <dirname property="module.obfushelpers.basedir" file="${ant.file.module_obfushelpers}"/>
+  
+  <property name="module.jdk.home.obfushelpers" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.obfushelpers" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.obfushelpers" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.obfushelpers" value="${compiler.args}"/>
+  
+  <property name="obfushelpers.output.dir" value="${module.obfushelpers.basedir}/out/production/obfusHelpers"/>
+  <property name="obfushelpers.testoutput.dir" value="${module.obfushelpers.basedir}/out/test/obfusHelpers"/>
+  
+  <path id="obfushelpers.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="obfushelpers.module.classpath">
+    <path refid="library.groovy-1.6.5.classpath"/>
+    <path refid="${module.jdk.classpath.obfushelpers}"/>
+    <path refid="library.zkm.classpath"/>
+    <path refid="library.jetbrainsannotations.classpath"/>
+    <path refid="library.args4j.classpath"/>
+  </path>
+  
+  <path id="obfushelpers.runtime.module.classpath">
+    <path refid="library.groovy-1.6.5.classpath"/>
+    <path refid="${module.jdk.classpath.obfushelpers}"/>
+    <pathelement location="${obfushelpers.output.dir}"/>
+    <pathelement location="${obfushelpers.testoutput.dir}"/>
+    <path refid="library.zkm.classpath"/>
+    <path refid="library.jetbrainsannotations.classpath"/>
+    <path refid="library.args4j.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.obfushelpers">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.obfushelpers">
+    <patternset refid="excluded.from.module.obfushelpers"/>
+  </patternset>
+  
+  <path id="obfushelpers.module.sourcepath">
+    <dirset dir="${module.obfushelpers.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.obfushelpers" depends="compile.module.obfushelpers.production,compile.module.obfushelpers.tests" description="Compile module obfusHelpers"/>
+  
+  <target name="compile.module.obfushelpers.production" description="Compile module obfusHelpers; production classes">
+    <mkdir dir="${obfushelpers.output.dir}"/>
+    <groovyc destdir="${obfushelpers.output.dir}" memorymaximumsize="${compiler.max.memory}" fork="true">
+      <classpath refid="obfushelpers.module.classpath"/>
+      <src refid="obfushelpers.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.obfushelpers"/>
+      <javac debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}">
+        <compilerarg line="${compiler.args.obfushelpers}"/>
+        <bootclasspath refid="obfushelpers.module.bootclasspath"/>
+        <classpath refid="obfushelpers.module.classpath"/>
+        <src refid="obfushelpers.module.sourcepath"/>
+        <patternset refid="excluded.from.compilation.obfushelpers"/>
+      </javac>
+    </groovyc>
+    
+    <copy todir="${obfushelpers.output.dir}">
+      <fileset dir="${module.obfushelpers.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+
+    <mkdir dir="${obfushelpers.output.dir}/vendor"/>
+
+    <copy todir="${obfushelpers.output.dir}/vendor" flatten="true" verbose="true">
+      <fileset file="${basedir}/lib/vendor/groovy-all-1.6.5.jar" />
+      <fileset file="${basedir}/lib/vendor/jetbrainsAnnotations.jar" />
+      <fileset file="${basedir}/lib/vendor/ZKM.jar" />
+      <fileset file="${basedir}/lib/vendor/args4j-2.0.9.jar" />
+    </copy>
+
+    <jar destfile="${obfushelpers.output.dir}/obfusHelpers.jar"
+         basedir="${obfushelpers.output.dir}"
+         includes="**/*.class">
+      <manifest>
+        <attribute name="Main-Class" value="obfusHelpers.LogConvertor" />
+        <attribute name="Class-Path" value="vendor/groovy-all-1.6.5.jar vendor/jetbrainsAnnotations.jar vendor/ZKM.jar vendor/args4j-2.0.9.jar" />
+      </manifest>
+    </jar>
+  </target>
+  
+  <target name="compile.module.obfushelpers.tests" depends="compile.module.obfushelpers.production" description="compile module obfusHelpers; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.obfushelpers" description="cleanup module">
+    <delete dir="${obfushelpers.output.dir}"/>
+    <delete dir="${obfushelpers.testoutput.dir}"/>
+  </target>
+</project>

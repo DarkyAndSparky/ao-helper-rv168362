@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <normalLeft>88</normalLeft>
+  <normalTop>116</normalTop>
+  <normalWidth>561</normalWidth>
+  <normalHeight>534</normalHeight>
+  <formWindowState>Normal</formWindowState>
+  <intParams />
+  <doubleParams />
+  <stringParams />
+  <comboBoxParams />
+  <textBoxParams>
+    <TextBoxParam>
+      <name>textBox4</name>
+      <text>Server Status</text>
+    </TextBoxParam>
+  </textBoxParams>
+  <checkBoxParams />
+  <radioButtonParams />
+  <gridColumnParams />
+  <splitContainerParams />
+  <listViewParams />
+</FormParams>

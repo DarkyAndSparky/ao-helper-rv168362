@@ -1,0 +1,98 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RUS_HTML
+//
+RUS_FIREWALL.CSS RUS_HTML                 "FirewallRUS.css"
+RUS_PREFS.CSS	RUS_HTML			"prefsRUS.css"
+RUS_IMAGES_PREFS_APPLY.GIF RUS_HTML                 "images\\apply.gif"
+RUS_IMAGES_PREFS_APPLY_DISABLED.GIF RUS_HTML                 "images\\apply_disabled.gif"
+RUS_IMAGES_PREFS_APPLY_DOWN.GIF RUS_HTML                 "images\\apply_down.gif"
+RUS_IMAGES_PREFS_APPLY_HOVER.GIF RUS_HTML                 "images\\apply_hover.gif"
+RUS_IMAGES_PREFS_APPLY_NOACTIVE.GIF RUS_HTML                 "images\\apply_noactive.gif"
+RUS_IMAGES_PREFS_CANCEL.GIF RUS_HTML                 "images\\prefs_cancel.gif"
+RUS_IMAGES_PREFS_CANCEL_DISABLED.GIF RUS_HTML                 "images\\prefs_cancel_disabled.gif"
+RUS_IMAGES_PREFS_CANCEL_DOWN.GIF RUS_HTML                 "images\\prefs_cancel_down.gif"
+RUS_IMAGES_PREFS_CANCEL_HOVER.GIF RUS_HTML                 "images\\prefs_cancel_hover.gif"
+RUS_IMAGES_PREFS_CANCEL_NOACTIVE.GIF RUS_HTML                 "images\\prefs_cancel_noactive.gif"
+RUS_IMAGES_PREFS_RESET.GIF RUS_HTML                 "images\\reset.gif"
+RUS_IMAGES_PREFS_RESET_DISABLED.GIF RUS_HTML                 "images\\reset_disabled.gif"
+RUS_IMAGES_PREFS_RESET_DOWN.GIF RUS_HTML                 "images\\reset_down.gif"
+RUS_IMAGES_PREFS_RESET_HOVER.GIF RUS_HTML                 "images\\reset_hover.gif"
+RUS_IMAGES_PREFS_RESET_NOACTIVE.GIF RUS_HTML                 "images\\reset_noactive.gif"
+
+RUS_BTN_FWACCEPT.GIF RUS_HTML                 "images\\apply.gif"
+RUS_BTN_FWACCEPT_DISABLED.GIF RUS_HTML                 "images\\apply_disabled.gif"
+RUS_BTN_FWACCEPT_DOWN.GIF RUS_HTML                 "images\\apply_down.gif"
+RUS_BTN_FWACCEPT_HOVER.GIF RUS_HTML                 "images\\apply_hover.gif"
+RUS_BTN_FWACCEPT_NOACTIVE.GIF RUS_HTML                 "images\\apply_noactive.gif"
+
+RUS_BTN_FWCANCEL.GIF RUS_HTML                 "images\\prefs_cancel.gif"
+RUS_BTN_FWCANCEL_DISABLED.GIF RUS_HTML                 "images\\prefs_cancel_disabled.gif"
+RUS_BTN_FWCANCEL_DOWN.GIF RUS_HTML                 "images\\prefs_cancel_down.gif"
+RUS_BTN_FWCANCEL_HOVER.GIF RUS_HTML                 "images\\prefs_cancel_hover.gif"
+RUS_BTN_FWCANCEL_NOACTIVE.GIF RUS_HTML                 "images\\prefs_cancel_noactive.gif"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

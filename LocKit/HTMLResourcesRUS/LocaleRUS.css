@@ -1,0 +1,296 @@
+body.rus #logo {
+	background-image:url('/RUS_HTML/RUS_IMAGES_LOGO.PNG');
+}
+
+body.rus #logo-ie5 {
+	background:url('/RUS_HTML/RUS_IMAGES_LOGO_IE5.JPG') top left no-repeat;
+}	
+
+/* ------------ registration ------------- */	
+body.rus #image-registration div {
+	background:url('/RUS_HTML/RUS_BTN_REGISTRATION.GIF') top left no-repeat;
+}
+	body.rus #image-registration div.hover {
+		background:url('/RUS_HTML/RUS_BTN_REGISTRATION_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-registration div.down {
+		background:url('/RUS_HTML/RUS_BTN_REGISTRATION_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-registration div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_REGISTRATION_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-registration div {
+			background:url('/RUS_HTML/RUS_BTN_REGISTRATION_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-registration div.hover {
+				background:url('/RUS_HTML/RUS_BTN_REGISTRATION.GIF') top left no-repeat;
+			}
+
+
+	
+/* ----------- account -------------- */	
+body.rus #image-account div {
+	background:url('/RUS_HTML/RUS_BTN_ACCOUNT.GIF') top left no-repeat;
+}
+	body.rus #image-account div.hover {
+		background:url('/RUS_HTML/RUS_BTN_ACCOUNT_HOVER.GIF') top left no-repeat;
+	}
+	
+	body.rus #container #image-account div.down {
+		background:url('/RUS_HTML/RUS_BTN_ACCOUNT_DOWN.GIF') top left no-repeat;
+	}
+	
+	body.rus #container #image-account div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_ACCOUNT_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-account div {
+			background:url('/RUS_HTML/RUS_BTN_ACCOUNT_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-account div.hover {
+				background:url('/RUS_HTML/RUS_BTN_ACCOUNT.GIF') top left no-repeat;
+			}		
+	
+	
+/* ----------- forum -------------- */	
+body.rus #image-forum div {
+	background:url('/RUS_HTML/RUS_BTN_FORUM.GIF') top left no-repeat;
+}
+	body.rus #image-forum div.hover {
+		background:url('/RUS_HTML/RUS_BTN_FORUM_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-forum div.down {
+		background:url('/RUS_HTML/RUS_BTN_FORUM_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-forum div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_FORUM_DISABLED.GIF') top left no-repeat
+	}
+	
+		body.rus div.noactive #image-forum div {
+			background:url('/RUS_HTML/RUS_BTN_FORUM_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-forum div.hover {
+				background:url('/RUS_HTML/RUS_BTN_FORUM.GIF') top left no-repeat;
+			}	
+
+/* ---------- play --------------- */	
+body.rus #image-play div {	
+	background:url('/RUS_HTML/RUS_BTN_PLAY.GIF') top left no-repeat;
+}
+	body.rus #image-play div.hover {
+		background:url('/RUS_HTML/RUS_BTN_PLAY_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-play div.down {
+		background:url('/RUS_HTML/RUS_BTN_PLAY_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-play div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_PLAY_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-play div {	
+			background:url('/RUS_HTML/RUS_BTN_PLAY_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-play div.hover {
+				background:url('/RUS_HTML/RUS_BTN_PLAY.GIF') top left no-repeat;
+			}	
+
+/* --- button exit --- */ 	
+body.rus #image-exit div {	
+	background:url('/RUS_HTML/RUS_BTN_EXIT.GIF') top left no-repeat;
+}
+	body.rus #image-exit div.hover {
+		background:url('/RUS_HTML/RUS_BTN_EXIT_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-exit div.down {
+		background:url('/RUS_HTML/RUS_BTN_EXIT_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-exit div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_EXIT_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-exit div {	
+			background:url('/RUS_HTML/RUS_BTN_EXIT_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-exit div.hover {
+				background:url('/RUS_HTML/RUS_BTN_EXIT.GIF') top left no-repeat;
+			}		
+	
+
+/* --- button update --- */ 	
+body.rus #image-update div {	
+	background:url('/RUS_HTML/RUS_BTN_UPDATE.GIF') top left no-repeat;
+}
+	body.rus #image-update div.hover {
+		background:url('/RUS_HTML/RUS_BTN_UPDATE_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-update div.down {
+		background:url('/RUS_HTML/RUS_BTN_UPDATE_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-update div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_UPDATE_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-update div {	
+			background:url('/RUS_HTML/RUS_BTN_UPDATE_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-update div.hover {
+				background:url('/RUS_HTML/RUS_BTN_UPDATE.GIF') top left no-repeat;
+			}	
+	
+/* --- button super ok --- */ 	
+body.rus #image-super-ok div {	
+	background:url('/RUS_HTML/RUS_BTN_SUPER_OK.GIF') top left no-repeat;
+}
+	body.rus #image-super-ok div.hover {
+		background:url('/RUS_HTML/RUS_BTN_SUPER_OK_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-super-ok div.down {
+		background:url('/RUS_HTML/RUS_BTN_SUPER_OK_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-super-ok div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_SUPER_OK_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.rus div.noactive #image-super-ok div {	
+			background:url('/RUS_HTML/RUS_BTN_SUPER_OK_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-super-ok div.hover {
+				background:url('/RUS_HTML/RUS_BTN_SUPER_OK.GIF') top left no-repeat;
+			}		
+	
+/* --- button super cancel --- */ 	
+body.rus #image-super-cancel div {	
+	background:url('/RUS_HTML/RUS_BTN_SUPER_CANCEL.GIF') top left no-repeat;
+}
+	body.rus #image-super-cancel div.hover {
+		background:url('/RUS_HTML/RUS_BTN_SUPER_CANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-super-cancel div.down {
+		background:url('/RUS_HTML/RUS_BTN_SUPER_CANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-super-cancel div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_SUPER_CANCEL_DISABLED.GIF') top left no-repeat;
+	}	
+
+		body.rus div.noactive #image-super-cancel div {	
+			background:url('/RUS_HTML/RUS_BTN_SUPER_CANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-super-cancel div.hover {
+				background:url('/RUS_HTML/RUS_BTN_SUPER_CANCEL.GIF') top left no-repeat;
+			}	
+			
+/* --- button repair --- */ 	
+body.rus #image-repair div {	
+	background:url('/RUS_HTML/RUS_BTN_REPAIR.GIF') top left no-repeat;
+}
+	body.rus #image-repair div.hover {
+		background:url('/RUS_HTML/RUS_BTN_REPAIR_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-repair div.down {
+		background:url('/RUS_HTML/RUS_BTN_REPAIR_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus #container #image-repair div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_REPAIR_DISABLED.GIF') top left no-repeat;
+	}	
+	
+		body.rus div.noactive #image-repair div {	
+			background:url('/RUS_HTML/RUS_BTN_REPAIR_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.rus div.noactive #image-repair div.hover {
+				background:url('/RUS_HTML/RUS_BTN_REPAIR.GIF') top left no-repeat;
+			}		
+	
+	
+/* --- button ok_smart --- */ 	
+body.rus .smart #image-ok div {	
+	background:url('/RUS_HTML/RUS_BTN_OK_SMART.GIF') top left no-repeat;
+}
+	body.rus .smart #image-ok div.hover {
+		background:url('/RUS_HTML/RUS_BTN_OK_SMART_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus .smart #image-ok div.down {
+		background:url('/RUS_HTML/RUS_BTN_OK_SMART_DOWN.GIF') top left no-repeat;
+	}
+
+	body.rus .smart #image-ok div.disabled {
+		background:url('/RUS_HTML/RUS_BTN_OK_SMART_DISABLED.GIF') top left no-repeat;
+	}		
+	
+/* ---------- ok ------- */
+body.rus #image-ok div {
+	background:url('/RUS_HTML/RUS_BTN_OK.GIF') top left no-repeat;
+}
+	body.rus #image-ok div.hover {
+		background:url('/RUS_HTML/RUS_BTN_OK_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #image-ok div.down {
+		background:url('/RUS_HTML/RUS_BTN_OK_DOWN.GIF') top left no-repeat;
+	}
+
+/* ---------- cancel ------- */
+body.rus #image-cancel div {
+	background:url('/RUS_HTML/RUS_BTN_CANCEL.GIF') top left no-repeat;
+}
+	body.rus #image-cancel div.hover {
+		background:url('/RUS_HTML/RUS_BTN_CANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #image-cancel div.down {
+		background:url('/RUS_HTML/RUS_BTN_CANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+
+/* ---------- abort ------- */
+body.rus #image-abort div {
+	background:url('/RUS_HTML/RUS_BTN_ABORT.GIF') top left no-repeat;
+}
+	body.rus #image-abort div.hover {
+		background:url('/RUS_HTML/RUS_BTN_ABORT_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #image-abort div.down {
+		background:url('/RUS_HTML/RUS_BTN_ABORT_DOWN.GIF') top left no-repeat;
+	}
+	
+/* ---------- retry ------- */
+body.rus #image-retry div {
+	background:url('/RUS_HTML/RUS_BTN_RETRY.GIF') top left no-repeat;
+}
+	body.rus #image-retry div.hover {
+		background:url('/RUS_HTML/RUS_BTN_RETRY_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #image-retry div.down {
+		background:url('/RUS_HTML/RUS_BTN_RETRY_DOWN.GIF') top left no-repeat;
+	}	
+	
+/* ---------- skip ------- */
+body.rus #image-skip div {
+	background:url('/RUS_HTML/RUS_BTN_SKIP.GIF') top left no-repeat;
+}
+	body.rus #image-skip div.hover {
+		background:url('/RUS_HTML/RUS_BTN_SKIP_HOVER.GIF') top left no-repeat;
+	}
+
+	body.rus #image-skip div.down {
+		background:url('/RUS_HTML/RUS_BTN_SKIP_DOWN.GIF') top left no-repeat;
+	}		

@@ -1,0 +1,79 @@
+﻿body.esp #image-fwaccept div {
+	background:url('/ESP_HTML/ESP_BTN_FWACCEPT.GIF') top left no-repeat;
+}
+	body.esp #image-fwaccept div.hover {
+		background:url('/ESP_HTML/ESP_BTN_FWACCEPT_HOVER.GIF') top left no-repeat;
+	}
+
+	body.esp #container #image-fwaccept div.down {
+		background:url('/ESP_HTML/ESP_BTN_FWACCEPT_DOWN.GIF') top left no-repeat;
+	}
+
+	body.esp #container #image-fwaccept div.disabled {
+		background:url('/ESP_HTML/ESP_BTN_FWACCEPT_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.esp div.noactive #image-fwaccept div {
+			background:url('/ESP_HTML/ESP_BTN_FWACCEPT_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.esp div.noactive #image-fwaccept div.hover {
+				background:url('/ESP_HTML/ESP_BTN_FWACCEPT.GIF') top left no-repeat;
+			}
+
+
+body.esp #image-fwcancel div {
+	background:url('/ESP_HTML/ESP_BTN_FWCANCEL.GIF') top left no-repeat;
+}
+	body.esp #image-fwcancel div.hover {
+		background:url('/ESP_HTML/ESP_BTN_FWCANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.esp #container #image-fwcancel div.down {
+		background:url('/ESP_HTML/ESP_BTN_FWCANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.esp #container #image-fwcancel div.disabled {
+		background:url('/ESP_HTML/ESP_BTN_FWCANCEL_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.esp div.noactive #image-fwcancel div {
+			background:url('/ESP_HTML/ESP_BTN_FWCANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.esp div.noactive #image-fwcancel div.hover {
+				background:url('/ESP_HTML/ESP_BTN_FWCANCEL.GIF') top left no-repeat;
+			}
+			
+body.esp #image-fwexit div {
+	background:url('/ESP_HTML/ESP_BTN_FWCANCEL.GIF') top left no-repeat;
+}
+	body.esp #image-fwexit div.hover {
+		background:url('/ESP_HTML/ESP_BTN_FWCANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.esp #container #image-fwexit div.down {
+		background:url('/ESP_HTML/ESP_BTN_FWCANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.esp #container #image-fwexit div.disabled {
+		background:url('/ESP_HTML/ESP_BTN_FWCANCEL_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.esp div.noactive #image-fwexit div {
+			background:url('/ESP_HTML/ESP_BTN_FWCANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.esp div.noactive #image-fwexit div.hover {
+				background:url('/ESP_HTML/ESP_BTN_FWCANCEL.GIF') top left no-repeat;
+			}			
+
+/* ---------- ok ------- */
+body.esp #image-fwok div {
+	background:url('/ESP_HTML/ESP_BTN_FWOK.GIF') top left no-repeat;
+}
+	body.esp #image-fwok div.hover {
+		background:url('/ESP_HTML/ESP_BTN_FWOK_HOVER.GIF') top left no-repeat;
+	}
+
+	body.esp #image-fwok div.down {
+		background:url('/ESP_HTML/ESP_BTN_FWOK_DOWN.GIF') top left no-repeat;
+	}		
+			

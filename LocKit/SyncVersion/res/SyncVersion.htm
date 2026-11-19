@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link rel="stylesheet" type="text/css" href="/RT_HTML/RT_MAIN.CSS" />
+    <script type="text/javascript">var Game={};var SyncVersion={};var Patcher={};var Complete={};var PatchErrorMsg={};var Locale={};var FWLocale={};var NetError={};var GameStartError={};var ServerErrorMsg={};var RipFileMsg={};var RipFileState={};</script>    
+    
+    <!--[if lt IE 6]><script type="text/javascript" src="/RT_HTML/RT_JQUERY_IE5.JS"></script><![endif]-->
+	
+	<!--[if gte IE 6]>
+		<script type="text/javascript" src="/RT_HTML/RT_JQUERY.JS"></script>
+		<script type="text/javascript" src="/RT_HTML/RT_JQUERY_UI_DRAG.JS"></script>
+	<![endif]-->	
+    
+    <script type="text/javascript" src="/RT_HTML/RT_LIB.JS"></script>	
+	<script type="text/javascript" src="/RT_HTML/RT_APP.JS"></script>
+	<script type="text/javascript" src="/RT_HTML/RT_BUTTONS.JS"></script>
+	<script type="text/javascript" src="/RT_HTML/RT_MESSAGE.JS"></script>
+    <script type="text/javascript" src="/RT_HTML/RT_LOCALE.JS"></script>	
+    <script type="text/javascript" src="/RT_HTML/RT_PATCHER.JS"></script>	
+    <script type="text/javascript" src="/RT_HTML/RT_COMPLETE.JS"></script>	    
+    <script type="text/javascript" src="/RT_HTML/RT_LOCALE_COMMON.JS"></script>    
+    <script type="text/javascript" src="/RT_HTML/RT_HTML_SYNCVERSION.JS"></script>    
+	<title>Allods Online</title>
+</head>
+<body id="syncversion">
+<div id="container">
+	<iframe id="news" name="news" src="about:blank" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<iframe id="patchnotes" name="patchnotes" src="about:blank" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<iframe id="license" name="license" src="about:blank" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<div id="window-title"></div>
+	<div id="logo-container">
+		<div id="logo"></div>
+		<a href="#" target="_blank" id="logo-link"></a>
+	</div>
+	
+    <!--[if IE 6]>
+		<script type="text/javascript" src="/RT_HTML/RT_BELATEDPNG.JS"></script>
+		<script type="text/javascript">
+			$('#logo').css('backgroundImage', 'url(' + Locale[Locale.langs[0].value].LogoID + ')');
+			DD_belatedPNG.fix( '#logo' );
+		</script>
+	<![endif]-->
+
+	<div id="news-ajax-indicator"></div>	
+	<div id="logo-ie5"></div>
+	<div id="update-ie5"></div>	
+	
+	<div id="system-message-bg"></div>
+	<div id="system-message">
+		<div id="system-message-left"></div>
+		<span id="system-message-text"></span><img id="system-message-anim" src="/RT_HTML/IDR_IMAGES_DOTS.GIF" width="13" height="3" alt="" />
+	</div>	
+	
+<script type="text/javascript"> 
+<!--
+	if (isIE5) {
+		$('#update-ie5').show();
+		$('#news-ajax-indicator').hide();
+		$('#logo-ie5').show();
+	}
+	else {
+		$('#logo-container').show();
+		$('#news-ajax-indicator').show();
+	}
+//-->
+</script>	
+	
+	<a id="button-down" href="#"></a>
+	<div id="image-down"><div></div></div>
+	<a id="button-close" href="#"></a>
+	<div id="image-close"><div></div></div>
+
+	<a id="button-registration" target="_blank" href="#"></a>
+	<div id="image-registration"><div></div></div>
+	<a target="_blank" id="button-account" href="#"></a>
+	<div id="image-account"><div></div></div>
+	<a target="_blank" id="button-forum" href="#"></a>
+	<div id="image-forum"><div></div></div>
+
+	<div id="toolbar" class="without-support-lang">	
+		<a id="button-patchnotes" href="#"></a>
+		<div id="image-patchnotes"><div class="disabled"></div></div>	
+		
+		<a id="button-serverstatus" href="#"></a>
+		<div id="image-serverstatus"><div class="disabled"></div></div>	
+		
+		<a id="button-prefs" href="#"></a>
+		<div id="image-prefs"><div></div></div>	
+		
+		<a id="button-license" href="#"></a>
+		<div id="image-license"><div></div></div>	
+
+		<a id="button-ripfiles" href="#"></a>
+		<div id="image-ripfiles"><div></div></div>	
+
+		<a id="button-news" href="#"></a>
+		<div id="image-news"><div></div></div>	
+	</div>
+	
+	<a id="button-play" href="#"></a>
+	<div id="image-play"><div></div></div>
+
+	<a id="button-update" href="#"></a>
+	<div id="image-update"><div></div></div>
+	
+	<a id="button-exit" href="#"></a>
+	<div id="image-exit"><div></div></div>	
+
+	<a id="button-super-ok" href="#"></a>
+	<div id="image-super-ok"><div></div></div>	
+
+	<a id="button-super-cancel" href="#"></a>
+	<div id="image-super-cancel"><div class="disabled"></div></div>	
+
+	<div id="status">
+		<div id="status-file"></div>
+		<div id="status-size"></div>
+		<a id="button-peersinfo" href="#"></a>
+		<div id="image-peersinfo"><div></div></div>	
+	</div>
+	<div id="progressbar">
+		<div id="progressbar-small-line"><div class="line"></div></div>
+		<div id="progressbar-big-line"><div class="light"><div></div></div><div class="line"></div></div>
+	</div>
+	
+	<div id="license-container"></div>
+	
+	<div id="ripfiles">
+		<div id="ripfiles-list"></div>
+		<div id="ripfiles-title"></div>
+		<table id="ripfiles-head" cellspacing="0" cellpadding="0">
+			<tr>
+				<th class="col1"><div></div></th>
+				<th class="col2"><div></div></th>
+				<th class="col3"><div></div></th>
+			</tr>
+		</table>
+		<div id="ripfiles-body"></div>
+		<div id="ripfiles-data">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td></td><td id="ripfiles-num-files"></td>
+				</tr>
+				<tr>
+					<td></td><td id="ripfiles-common-size"></td>
+				</tr>
+			</table>
+		</div>			
+	</div>
+	<div id="message-bg"></div>
+	<div id="message">
+		<div id="message-title"></div>
+		<div id="message-icon"><div class="question"></div></div>
+        <div id="message-timing"></div>			
+		<div id="message-body">
+			<div id="message-body-bg"></div>
+			<div id="message-text"></div>
+			<div id="message-control">
+				<a id="button-ok" href="#"></a>
+				<div id="image-ok"><div></div></div>
+				<a id="button-cancel" href="#"></a>
+				<div id="image-cancel"><div></div></div>
+				<a id="button-shut" href="#"></a>
+				<div id="image-shut"><div></div></div>				
+				<div id="button-abort"></div>
+				<div id="image-abort"><div></div></div>	
+				<div id="button-retry"></div>
+				<div id="image-retry"><div></div></div>
+				<div id="button-skip"></div>
+				<div id="image-skip"><div></div></div>				
+			</div>
+			<div id="message-bottom"></div>
+		</div>
+	</div>
+	<input id="set-focus" type="text" value="" />
+	<div id="window-copyright">&copy; 2008&ndash;<span id="window-year">2009</span> <span id="copyright-nival"></span></div>
+</div>	
+</body>
+</html>

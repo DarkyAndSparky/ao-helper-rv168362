@@ -1,0 +1,13 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Release" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="EditorTools.dll" />
+    <assembly path="UIEditor.dll" />
+    <assembly path="UICore.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto">
+    <assembly path="EditorTools.dll" />
+    <assembly path="UIEditor.dll" />
+    <assembly path="UICore.dll" />
+  </Config>
+</NUnitProject>

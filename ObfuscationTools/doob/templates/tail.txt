@@ -1,0 +1,10 @@
+obfuscate   changeLogFileIn=""
+            changeLogFileOut="<%= params[:outChangeLog] %>"
+            keepInnerClassInfo=true
+            keepGenericsInfo=true
+            obfuscateFlow=none
+            encryptStringLiterals=none
+            collapsePackagesWithDefault="ao"
+            lineNumbers=scramble;
+
+saveAll     archiveCompression=all "<%= params[:outPath] %>";

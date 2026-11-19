@@ -1,0 +1,1 @@
+start AOgame.exe -luatestmain Tests/Lua/TpMobWorld/Main.(DeveloperAddon).xdb

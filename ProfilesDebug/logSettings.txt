@@ -1,0 +1,99 @@
+//
+//   Команды
+//
+// EnableChannel( logLevel, channelName, bool enable )
+// EnableChannel( channelName, bool enable )
+//
+// AddListener( logLevel, listener, formatter )
+// AddListener( logLevel, channelName, listener, formatter )
+//
+// ADD_LOG_LISTENER_FOR_ALL_LEVELS( channelName, listener, formatter )
+// ADD_LOG_LISTENER_FOR_FAULT_LEVELS( channelName, listener, formatter )
+//
+// FileAndLinePrintedToFile( bool enable )
+//
+// SetChannelSpamFilter( logLevel, channelName, bool enable )
+// SetChannelSpamFilterAllLevels( channelName, bool enable )
+//---------------------------------------------------------------
+// logLevel  : INFO, WARNING, ERROR, FATAL
+//
+// listener	 : Debug, Printf, DebugBreak, FileOutPut, DebugExternalServerListenerFunc, DebugConsoleListenerFunc
+//
+// formatter : Debug, Tab, Empty, MessageOnly, PrefixedTab, ConsoleFormatFunc, ScriptFormatFunc
+//---------------------------------------------------------------
+//---------------------------------------------------------------
+//---------------------------------------------------------------
+	// log external (aka java) server errors to separate file
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( external_server, DebugExternalServerListenerFunc, ConsoleFormatFunc );
+
+	//{ вывод в игровую консоль
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( console, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( msg, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( serverconsole, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( script, DebugConsoleListenerFunc, ScriptFormatFunc );
+
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( common, DebugConsoleListenerFunc, ConsoleFormatFunc );
+
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( dbcodegen, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( rcs, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( commoncheck, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( commonexport, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( animexport, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( exportcommon, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( particleexport, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( shaderexport, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( shaderexport, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( CollisionExport, DebugConsoleListenerFunc, ConsoleFormatFunc );
+
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( assert, DebugConsoleListenerFunc, ConsoleFormatFunc );
+
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( gamemain, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( libdb, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( init, DebugConsoleListenerFunc, ConsoleFormatFunc );
+
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( gamestate, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( uistate, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( widgets, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( rendertext, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( input, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( scene, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( modelloading, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( gm, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( slon, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( server, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( fileLog, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( fileLog, FileOutPut, MessageOnly );
+	ADD_LOG_LISTENER_FOR_FAULT_LEVELS( replication, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( game_events, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( net, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( xhtmlparsing, DebugConsoleListenerFunc, ConsoleFormatFunc );
+
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( gmuihelper, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( debug_timer, DebugConsoleListenerFunc, ConsoleFormatFunc );
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( debug_latency_detector, DebugConsoleListenerFunc, ConsoleFormatFunc );
+
+	ADD_LOG_LISTENER_FOR_ALL_LEVELS( direct_format, DebugConsoleListenerFunc, DirectFormatFunc );
+
+//---------------------------------------------------------------
+//---------------------------------------------------------------
+//---------------------------------------------------------------
+EnableChannel( sound, false )
+FileAndLinePrintedToFile( false )
+//EnableChannel( slon, true )
+AddListener( INFO, slon, FileOutPut, MessageOnly )
+EnableChannel( msg, false )
+//SetChannelSpamFilter( INFO, slon, true )
+
+// cheats
+EnableChannel( console::cheats, true )
+
+//ADD_LOG_LISTENER_FOR_ALL_LEVELS( slon::errors, DebugConsoleListenerFunc, ConsoleFormatFunc );
+ADD_LOG_LISTENER_FOR_ALL_LEVELS( slon::errors, FileOutPut, MessageOnly );
+EnableChannel( slon::errors, true )
+
+
+//EnableChannel( INFO, slon::creature::events, true )
+//EnableChannel( INFO, slon::creature::view, true )
+
+//EnableChannel( INFO, slon::vis_entity::events, true )
+//EnableChannel( INFO, slon::vis_entity::view, true )

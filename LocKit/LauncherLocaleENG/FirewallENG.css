@@ -1,0 +1,80 @@
+﻿body.eng #image-fwaccept div {
+	background:url('/ENG_HTML/ENG_BTN_FWACCEPT.GIF') top left no-repeat;
+}
+	body.eng #image-fwaccept div.hover {
+		background:url('/ENG_HTML/ENG_BTN_FWACCEPT_HOVER.GIF') top left no-repeat;
+	}
+
+	body.eng #container #image-fwaccept div.down {
+		background:url('/ENG_HTML/ENG_BTN_FWACCEPT_DOWN.GIF') top left no-repeat;
+	}
+
+	body.eng #container #image-fwaccept div.disabled {
+		background:url('/ENG_HTML/ENG_BTN_FWACCEPT_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.eng div.noactive #image-fwaccept div {
+			background:url('/ENG_HTML/ENG_BTN_FWACCEPT_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.eng div.noactive #image-fwaccept div.hover {
+				background:url('/ENG_HTML/ENG_BTN_FWACCEPT.GIF') top left no-repeat;
+			}
+
+
+body.eng #image-fwcancel div {
+	background:url('/ENG_HTML/ENG_BTN_FWCANCEL.GIF') top left no-repeat;
+}
+	body.eng #image-fwcancel div.hover {
+		background:url('/ENG_HTML/ENG_BTN_FWCANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.eng #container #image-fwcancel div.down {
+		background:url('/ENG_HTML/ENG_BTN_FWCANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.eng #container #image-fwcancel div.disabled {
+		background:url('/ENG_HTML/ENG_BTN_FWCANCEL_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.eng div.noactive #image-fwcancel div {
+			background:url('/ENG_HTML/ENG_BTN_FWCANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.eng div.noactive #image-fwcancel div.hover {
+				background:url('/ENG_HTML/ENG_BTN_FWCANCEL.GIF') top left no-repeat;
+			}
+			
+body.eng #image-fwexit div {
+	background:url('/ENG_HTML/ENG_BTN_FWCANCEL.GIF') top left no-repeat;
+}
+	body.eng #image-fwexit div.hover {
+		background:url('/ENG_HTML/ENG_BTN_FWCANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.eng #container #image-fwexit div.down {
+		background:url('/ENG_HTML/ENG_BTN_FWCANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.eng #container #image-fwexit div.disabled {
+		background:url('/ENG_HTML/ENG_BTN_FWCANCEL_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.eng div.noactive #image-fwexit div {
+			background:url('/ENG_HTML/ENG_BTN_FWCANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.eng div.noactive #image-fwexit div.hover {
+				background:url('/ENG_HTML/ENG_BTN_FWCANCEL.GIF') top left no-repeat;
+			}			
+			
+			
+/* ---------- fwok ------- */
+body.eng #image-fwok div {
+	background:url('/ENG_HTML/ENG_BTN_FWOK.GIF') top left no-repeat;
+}
+	body.eng #image-fwok div.hover {
+		background:url('/ENG_HTML/ENG_BTN_FWOK_HOVER.GIF') top left no-repeat;
+	}
+
+	body.eng #image-fwok div.down {
+		background:url('/ENG_HTML/ENG_BTN_FWOK_DOWN.GIF') top left no-repeat;
+	}	
+	

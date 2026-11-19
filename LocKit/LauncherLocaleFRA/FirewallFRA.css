@@ -1,0 +1,80 @@
+﻿body.fra #image-fwaccept div {
+	background:url('/FRA_HTML/FRA_BTN_FWACCEPT.GIF') top left no-repeat;
+}
+	body.fra #image-fwaccept div.hover {
+		background:url('/FRA_HTML/FRA_BTN_FWACCEPT_HOVER.GIF') top left no-repeat;
+	}
+
+	body.fra #container #image-fwaccept div.down {
+		background:url('/FRA_HTML/FRA_BTN_FWACCEPT_DOWN.GIF') top left no-repeat;
+	}
+
+	body.fra #container #image-fwaccept div.disabled {
+		background:url('/FRA_HTML/FRA_BTN_FWACCEPT_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.fra div.noactive #image-fwaccept div {
+			background:url('/FRA_HTML/FRA_BTN_FWACCEPT_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.fra div.noactive #image-fwaccept div.hover {
+				background:url('/FRA_HTML/FRA_BTN_FWACCEPT.GIF') top left no-repeat;
+			}
+
+
+body.fra #image-fwcancel div {
+	background:url('/FRA_HTML/FRA_BTN_FWCANCEL.GIF') top left no-repeat;
+}
+	body.fra #image-fwcancel div.hover {
+		background:url('/FRA_HTML/FRA_BTN_FWCANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.fra #container #image-fwcancel div.down {
+		background:url('/FRA_HTML/FRA_BTN_FWCANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.fra #container #image-fwcancel div.disabled {
+		background:url('/FRA_HTML/FRA_BTN_FWCANCEL_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.fra div.noactive #image-fwcancel div {
+			background:url('/FRA_HTML/FRA_BTN_FWCANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.fra div.noactive #image-fwcancel div.hover {
+				background:url('/FRA_HTML/FRA_BTN_FWCANCEL.GIF') top left no-repeat;
+			}
+			
+body.fra #image-fwexit div {
+	background:url('/FRA_HTML/FRA_BTN_FWCANCEL.GIF') top left no-repeat;
+}
+	body.fra #image-fwexit div.hover {
+		background:url('/FRA_HTML/FRA_BTN_FWCANCEL_HOVER.GIF') top left no-repeat;
+	}
+
+	body.fra #container #image-fwexit div.down {
+		background:url('/FRA_HTML/FRA_BTN_FWCANCEL_DOWN.GIF') top left no-repeat;
+	}
+
+	body.fra #container #image-fwexit div.disabled {
+		background:url('/FRA_HTML/FRA_BTN_FWCANCEL_DISABLED.GIF') top left no-repeat;
+	}
+	
+		body.fra div.noactive #image-fwexit div {
+			background:url('/FRA_HTML/FRA_BTN_FWCANCEL_NOACTIVE.GIF') top left no-repeat;
+		}
+			body.fra div.noactive #image-fwexit div.hover {
+				background:url('/FRA_HTML/FRA_BTN_FWCANCEL.GIF') top left no-repeat;
+			}
+						
+
+	
+/* ---------- ok ------- */
+body.fra #image-fwok div {
+	background:url('/FRA_HTML/FRA_BTN_FWOK.GIF') top left no-repeat;
+}
+	body.fra #image-fwok div.hover {
+		background:url('/FRA_HTML/FRA_BTN_FWOK_HOVER.GIF') top left no-repeat;
+	}
+
+	body.fra #image-fwok div.down {
+		background:url('/FRA_HTML/FRA_BTN_FWOK_DOWN.GIF') top left no-repeat;
+	}

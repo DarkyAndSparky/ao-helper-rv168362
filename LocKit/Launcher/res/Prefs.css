@@ -1,0 +1,287 @@
+@import url("/RUS_HTML/RUS_PREFS.CSS");
+@import url("/ENG_HTML/ENG_PREFS.CSS");
+@import url("/FRA_HTML/FRA_PREFS.CSS");
+@import url("/GER_HTML/GER_PREFS.CSS");
+@import url("/ESP_HTML/ESP_PREFS.CSS");
+
+
+#prefs-inner {
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	position:absolute;
+	left:7px;
+	top:27px;
+	width:699px;
+	height:295px;
+	background:url('/RT_HTML/IDR_IMAGES_PREFS_BG_PREFS.JPG') top left no-repeat;
+}
+
+#prefs ul {
+	padding:0;
+	margin:0;
+}
+	#prefs ul li {
+		color:#dab02e;
+		list-style-type:none;
+		height:30px;
+		width:669px;
+		white-space:nowrap;
+		position:relative;
+	}
+		#prefs ul li.title {
+			left:-3px;
+			color:#b3baba;
+			font-size:14px;
+		}
+	
+	#prefs ul ul {
+	}
+		#prefs ul ul li {
+			color:#dab02e;
+			list-style-type:none;
+			height:auto;
+			width:100px;
+			white-space:nowrap;
+		}
+
+#prefs-gfx, #prefs-sound, #prefs-game {
+	position:absolute;
+	left:20px;
+}
+
+#prefs-gfx {
+	top:24px;
+	z-index:2;
+}
+
+#prefs-sound {
+	top:158px;
+	z-index:1;
+}
+
+#prefs-game {
+	top:230px;
+	z-index:1;
+}
+
+/* ---------- prefs-cancel ------- */
+#button-prefs-cancel, #image-prefs-cancel {
+	position:absolute;
+	left:593px;
+	top:300px;
+	width:104px;
+	height:32px;
+}
+
+#button-prefs-cancel {
+	z-index:10;
+}
+
+#image-prefs-cancel div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:113px;
+	height:32px;
+}
+	#image-prefs-cancel div.down {
+		left:0;
+		top:0;
+	}
+	
+/* ---------- prefs-apply ------- */
+#button-prefs-apply, #image-prefs-apply {
+	position:absolute;
+	left:483px;
+	top:300px;
+	width:104px;
+	height:32px;
+}
+
+#button-prefs-apply {
+	z-index:10;
+}
+
+#image-prefs-apply div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:113px;
+	height:32px;
+}
+	#image-prefs-apply div.down {
+		left:0;
+		top:0;
+	}
+
+
+/* ---------- prefs-reset ------- */
+#button-prefs-reset, #image-prefs-reset {
+	position:absolute;
+	left:363px;
+	top:300px;
+	width:104px;
+	height:32px;
+}
+
+#button-prefs-reset {
+	z-index:10;
+}
+
+#image-prefs-reset div {
+	position:absolute;
+	left:0;
+	top:0;
+	width:113px;
+	height:32px;
+}
+	#image-prefs-reset div.down {
+		left:0;
+		top:0;
+	}
+
+
+/* Checkbox */
+#prefs .checkbox {
+	right:10px;
+	top:-5px;
+	cursor:pointer;
+	z-index:2;
+}
+	#prefs .checkbox div, #prefs .checkbox {
+		position:absolute;
+		width:23px;
+		height:23px;
+	}
+	
+	#prefs .checkbox div {
+		left:0;
+		top:0;
+	}
+		#prefs .checkbox div div {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_CHECKBOX_UNCHECKED.GIF') top left no-repeat;
+		}
+
+		#prefs .checkbox div div.hover {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_CHECKBOX_UNCHECKED_HOVER.GIF') top left no-repeat;
+		}
+		
+		#prefs .checkbox div.checked div {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_CHECKBOX_CHECKED.GIF') top left no-repeat;
+		}
+
+		#prefs .checkbox div.checked div.hover {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_CHECKBOX_CHECKED_HOVER.GIF') top left no-repeat;
+		}
+			body #prefs .checkbox div div.down {
+				background:url('/RT_HTML/IDR_IMAGES_PREFS_CHECKBOX_CHECKED_DOWN.GIF') top left no-repeat;
+			}
+			
+			body #prefs .checkbox div.checked div.down {
+				background:url('/RT_HTML/IDR_IMAGES_PREFS_CHECKBOX_CHECKED_DOWN.GIF') top left no-repeat;
+			}
+			
+/* select */
+#prefs .select {
+	right:8px;
+	top:-5px;
+	cursor:pointer;
+	z-index:2;
+	font-size:12px;
+}
+	#prefs .select div, #prefs .select {
+		position:absolute;
+		width:230px;
+		height:25px;
+	}
+	
+	#prefs .select div {
+		left:0;
+		top:0;
+		width:230px;
+		height:25px;
+	}
+		body #prefs .select .container {
+			display:none;
+			top:25px;
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_DROPDOWN.GIF') top left no-repeat;
+			padding:5px 0 0 0;
+		}
+	
+	#prefs .select .container ul {
+		background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_DROPDOWN_REPEAT.GIF') top left repeat-y;
+		width:100%;
+	}
+
+	#prefs .select .container li {
+		margin-left:5px;
+		width:196px;
+	}
+		#prefs .select .container li.hover {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_LI_LEFT.GIF') top left no-repeat;
+		}
+	
+		#prefs .select .container li div {
+			position:static;
+			height:auto;
+			margin-left:10px;
+			width:186px;
+		}
+			#prefs .select .container li.hover div {
+				background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_LI_RIGHT.GIF') top right no-repeat;
+			}
+	
+#prefs .select .container-bottom {
+	position:static;
+	background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_DROPDOWN_BOTTOM.GIF') bottom left no-repeat;
+	padding:0 0 5px 0;
+	height:auto;
+}
+	#prefs .select div.title {
+		left:0;
+		top:0;
+		color:#b3baba;
+		font-weight:bold;
+		cursor:pointer;
+	}
+
+	#prefs .select div.title div div {
+		background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT.GIF') top left no-repeat;
+	}
+	
+	#prefs .select div.title span {
+		position:absolute;
+		left:10px;
+		top:5px;
+	}
+		#prefs .select div.title span span {
+			position:static;
+		}
+
+		#prefs .select div.title div.hover div {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_HOVER.GIF') top left no-repeat;
+		}
+		
+		#prefs .select div.title div.disabled div {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_DISABLED.GIF') top left no-repeat;
+		}
+		
+		#prefs .select div.title div.disabled span {
+			color:#777;
+		}
+		
+		#prefs .select div.title div.disabled {
+			color:#777;
+			cursor:default;
+		}		
+		
+		#prefs .select div.open div div {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_OPEN.GIF') top left no-repeat;
+		}
+
+		#prefs .select div.open div.hover div {
+			background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_HOVER.GIF') top left no-repeat;
+		}
+			body #prefs .select div.title div div.down, body #prefs .select div.open div div.down {
+				background:url('/RT_HTML/IDR_IMAGES_PREFS_SELECT_OPEN_DOWN.GIF') top left no-repeat;
+			}

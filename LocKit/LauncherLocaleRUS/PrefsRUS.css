@@ -1,0 +1,70 @@
+/* ---------- prefs-cancel ------- */
+body.rus #image-prefs-cancel div {
+	background:url('/RUS_HTML/RUS_IMAGES_PREFS_CANCEL.GIF') top left no-repeat;
+}
+	body.rus #image-prefs-cancel div.hover {
+		background:url('/RUS_HTML/RUS_IMAGES_PREFS_CANCEL_HOVER.GIF') top left no-repeat;
+	}
+		body.rus #container  #image-prefs-cancel div.disabled {
+			background:url('/RUS_HTML/RUS_IMAGES_PREFS_CANCEL_DISABLED.GIF') top left no-repeat;
+		}	
+
+		body.rus #container #image-prefs-cancel div.down {
+			background:url('/RUS_HTML/RUS_IMAGES_PREFS_CANCEL_DOWN.GIF') top left no-repeat;
+		}
+		
+			body.rus div.noactive #image-prefs-cancel div {
+				background:url('/RUS_HTML/RUS_IMAGES_PREFS_CANCEL_NOACTIVE.GIF') top left no-repeat;
+			}
+		
+				body.rus div.noactive #image-prefs-cancel div.hover {
+					background:url('/RUS_HTML/RUS_IMAGES_PREFS_CANCEL.GIF') top left no-repeat;
+				}
+	
+/* ---------- prefs-apply ------- */
+body.rus #image-prefs-apply div {
+	background:url('/RUS_HTML/RUS_IMAGES_PREFS_APPLY.GIF') top left no-repeat;
+}
+	body.rus #image-prefs-apply div.hover {
+		background:url('/RUS_HTML/RUS_IMAGES_PREFS_APPLY_HOVER.GIF') top left no-repeat;
+	}
+	
+		body.rus #container #image-prefs-apply div.disabled {
+			background:url('/RUS_HTML/RUS_IMAGES_PREFS_APPLY_DISABLED.GIF') top left no-repeat;
+		}	
+
+		body.rus #container #image-prefs-apply div.down {
+			background:url('/RUS_HTML/RUS_IMAGES_PREFS_APPLY_DOWN.GIF') top left no-repeat;
+		}
+		
+			body.rus div.noactive #image-prefs-apply div {
+				background:url('/RUS_HTML/RUS_IMAGES_PREFS_APPLY_NOACTIVE.GIF') top left no-repeat;
+			}	
+
+				body.rus div.noactive #image-prefs-apply div.hover {
+					background:url('/RUS_HTML/RUS_IMAGES_PREFS_APPLY.GIF') top left no-repeat;
+				}	
+
+/* ---------- prefs-reset ------- */
+body.rus #image-prefs-reset div {
+	background:url('/RUS_HTML/RUS_IMAGES_PREFS_RESET.GIF') top left no-repeat;
+}
+	body.rus #image-prefs-reset div.hover {
+		background:url('/RUS_HTML/RUS_IMAGES_PREFS_RESET_HOVER.GIF') top left no-repeat;
+	}
+		body.rus #container #image-prefs-reset div.disabled {
+			background:url('/RUS_HTML/RUS_IMAGES_PREFS_RESET_DISABLED.GIF') top left no-repeat;
+		}	
+
+		body.rus #container #image-prefs-reset div.down {
+			background:url('/RUS_HTML/RUS_IMAGES_PREFS_RESET_DOWN.GIF') top left no-repeat;
+		}
+		
+			body.rus div.noactive #image-prefs-reset div {
+				background:url('/RUS_HTML/RUS_IMAGES_PREFS_RESET_NOACTIVE.GIF') top left no-repeat;
+			}	
+
+				body.rus div.noactive #image-prefs-reset div.hover {
+					background:url('/RUS_HTML/RUS_IMAGES_PREFS_RESET.GIF') top left no-repeat;
+				}		
+

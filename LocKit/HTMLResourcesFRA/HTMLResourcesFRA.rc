@@ -1,0 +1,151 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FRA_HTML
+//
+FRA_LOCALE.CSS FRA_HTML                 "localeFRA.css"
+FRA_LOCALE.JS FRA_HTML                   "LocaleFRA.js"
+FRA_IMAGES_LOGO_IE5.JPG FRA_HTML                 "images\\logo_ie5.jpg"
+FRA_IMAGES_LOGO.PNG     FRA_HTML									"images\\logo.png"
+FRA_BTN_ACCOUNT.GIF     FRA_HTML                 "images\\account.gif"
+FRA_BTN_ACCOUNT_DISABLED.GIF FRA_HTML            "images\\account_disabled.gif"
+FRA_BTN_ACCOUNT_DOWN.GIF FRA_HTML                "images\\account_down.gif"
+FRA_BTN_ACCOUNT_HOVER.GIF FRA_HTML               "images\\account_hover.gif"
+FRA_BTN_ACCOUNT_NOACTIVE.GIF FRA_HTML            "images\\account_noactive.gif"
+FRA_BTN_OK.GIF          FRA_HTML                 "images\\ok.gif"
+FRA_BTN_OK_DOWN.GIF     FRA_HTML                 "images\\ok_down.gif"
+FRA_BTN_OK_HOVER.GIF    FRA_HTML                 "images\\ok_hover.gif"
+FRA_BTN_OK_DISABLED.GIF FRA_HTML                 "images\\ok_disabled.gif"
+
+FRA_BTN_FWOK.GIF          FRA_HTML                 "images\\ok.gif"
+FRA_BTN_FWOK_DOWN.GIF     FRA_HTML                 "images\\ok_down.gif"
+FRA_BTN_FWOK_HOVER.GIF    FRA_HTML                 "images\\ok_hover.gif"
+FRA_BTN_FWOK_DISABLED.GIF FRA_HTML                 "images\\ok_disabled.gif"
+
+FRA_BTN_ABORT.GIF      FRA_HTML                 "images\\abort.gif"
+FRA_BTN_ABORT_DOWN.GIF FRA_HTML                 "images\\abort_down.gif"
+FRA_BTN_ABORT_HOVER.GIF FRA_HTML                "images\\abort_hover.gif"
+FRA_BTN_ABORT_DISABLED.GIF FRA_HTML             "images\\abort_disabled.gif"
+
+FRA_BTN_RETRY.GIF      FRA_HTML                 "images\\retry.gif"
+FRA_BTN_RETRY_DOWN.GIF FRA_HTML                 "images\\retry_down.gif"
+FRA_BTN_RETRY_HOVER.GIF FRA_HTML                "images\\retry_hover.gif"
+FRA_BTN_RETRY_DISABLED.GIF FRA_HTML             "images\\retry_disabled.gif"
+
+FRA_BTN_SKIP.GIF      FRA_HTML                 "images\\skip.gif"
+FRA_BTN_SKIP_DOWN.GIF FRA_HTML                 "images\\skip_down.gif"
+FRA_BTN_SKIP_HOVER.GIF FRA_HTML                "images\\skip_hover.gif"
+FRA_BTN_SKIP_DISABLED.GIF FRA_HTML             "images\\skip_disabled.gif"
+
+FRA_BTN_CANCEL.GIF      FRA_HTML                 "images\\cancel.gif"
+FRA_BTN_CANCEL_DOWN.GIF FRA_HTML                 "images\\cancel_down.gif"
+FRA_BTN_CANCEL_HOVER.GIF FRA_HTML                "images\\cancel_hover.gif"
+FRA_BTN_CANCEL_DISABLED.GIF FRA_HTML             "images\\cancel_disabled.gif"
+FRA_BTN_FORUM.GIF       FRA_HTML                 "images\\forum.gif"
+FRA_BTN_FORUM_DISABLED.GIF FRA_HTML              "images\\forum_disabled.gif"
+FRA_BTN_FORUM_DOWN.GIF  FRA_HTML                 "images\\forum_down.gif"
+FRA_BTN_FORUM_HOVER.GIF FRA_HTML                 "images\\forum_hover.gif"
+FRA_BTN_FORUM_NOACTIVE.GIF FRA_HTML              "images\\forum_noactive.gif"
+FRA_BTN_PLAY.GIF        FRA_HTML                 "images\\play.gif"
+FRA_BTN_PLAY_DISABLED.GIF FRA_HTML               "images\\play_disabled.gif"
+FRA_BTN_PLAY_DOWN.GIF   FRA_HTML                 "images\\play_down.gif"
+FRA_BTN_PLAY_HOVER.GIF  FRA_HTML                 "images\\play_hover.gif"
+FRA_BTN_PLAY_NOACTIVE.GIF  FRA_HTML              "images\\play_noactive.gif"
+FRA_BTN_REGISTRATION.GIF FRA_HTML                "images\\registration.gif"
+FRA_BTN_REGISTRATION_DOWN.GIF FRA_HTML           "images\\registration_down.gif"
+FRA_BTN_REGISTRATION_HOVER.GIF FRA_HTML          "images\\registration_hover.gif"
+FRA_BTN_REGISTRATION_DISABLED.GIF FRA_HTML       "images\\registration_disabled.gif"
+FRA_BTN_REGISTRATION_NOACTIVE.GIF FRA_HTML       "images\\registration_noactive.gif"
+FRA_BTN_EXIT.GIF        FRA_HTML                 "images\\exit.gif"
+FRA_BTN_EXIT_DISABLED.GIF FRA_HTML               "images\\exit_disabled.gif"
+FRA_BTN_EXIT_DOWN.GIF   FRA_HTML                 "images\\exit_down.gif"
+FRA_BTN_EXIT_HOVER.GIF  FRA_HTML                 "images\\exit_hover.gif"
+FRA_BTN_EXIT_NOACTIVE.GIF  FRA_HTML              "images\\exit_noactive.gif"
+FRA_BTN_SUPER_CANCEL.GIF FRA_HTML                "images\\super_cancel.gif"
+FRA_BTN_SUPER_CANCEL_DISABLED.GIF FRA_HTML       "images\\super_cancel_disabled.gif"
+FRA_BTN_SUPER_CANCEL_DOWN.GIF FRA_HTML           "images\\super_cancel_down.gif"
+FRA_BTN_SUPER_CANCEL_HOVER.GIF FRA_HTML          "images\\super_cancel_hover.gif"
+FRA_BTN_SUPER_CANCEL_NOACTIVE.GIF FRA_HTML       "images\\super_cancel_noactive.gif"
+FRA_BTN_SUPER_OK.GIF    FRA_HTML                 "images\\super_ok.gif"
+FRA_BTN_SUPER_OK_DISABLED.GIF FRA_HTML           "images\\super_ok_disabled.gif"
+FRA_BTN_SUPER_OK_DOWN.GIF FRA_HTML               "images\\super_ok_down.gif"
+FRA_BTN_SUPER_OK_HOVER.GIF FRA_HTML              "images\\super_ok_hover.gif"
+FRA_BTN_SUPER_OK_NOACTIVE.GIF FRA_HTML           "images\\super_ok_noactive.gif"
+FRA_BTN_UPDATE_NOACTIVE.GIF FRA_HTML             "images\\update_noactive.gif"
+FRA_BTN_UPDATE_HOVER.GIF FRA_HTML                "images\\update_hover.gif"
+FRA_BTN_UPDATE.GIF      FRA_HTML                 "images\\update.gif"
+FRA_BTN_UPDATE_DISABLED.GIF FRA_HTML             "images\\update_disabled.gif"
+FRA_BTN_UPDATE_DOWN.GIF FRA_HTML                 "images\\update_down.gif"
+FRA_BTN_REPAIR.GIF FRA_HTML											"images\\repair.gif"
+FRA_BTN_REPAIR_DISABLED.GIF FRA_HTML             "images\\repair_disabled.gif"
+FRA_BTN_REPAIR_DOWN.GIF FRA_HTML                 "images\\repair_down.gif"
+FRA_BTN_REPAIR_HOVER.GIF FRA_HTML                "images\\repair_hover.gif"
+FRA_BTN_REPAIR_NOACTIVE.GIF FRA_HTML             "images\\repair_noactive.gif"
+FRA_BTN_OK_SMART.GIF FRA_HTML										"images\\ok_smart.gif"
+FRA_BTN_OK_SMART_DISABLED.GIF FRA_HTML           "images\\ok_smart_disabled.gif"
+FRA_BTN_OK_SMART_DOWN.GIF FRA_HTML               "images\\ok_smart_down.gif"
+FRA_BTN_OK_SMART_HOVER.GIF FRA_HTML              "images\\ok_smart_hover.gif"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

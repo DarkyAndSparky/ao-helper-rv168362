@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link rel="stylesheet" type="text/css" href="/RT_HTML/RT_MAIN.CSS" />
+	<link rel="stylesheet" type="text/css" href="/RT_HTML/RT_PREFS.CSS" />
+    <script type="text/javascript">var InitialCheck={};var Launcher={};var Game={};var PatchErrorMsg={};var Locale={};var FWLocale={};var Prefs={};var FastCheck={};var FullCheck={};var Patching={};var Repair={};var Downloader={};var NetError={};var GameStartError={};var ServerErrorMsg={};var RipFileMsg={};var RipFileState={};</script>    
+   
+    <!--[if lt IE 6]><script type="text/javascript" src="/RT_HTML/RT_JQUERY_IE5.JS"></script><![endif]-->
+	
+	<!--[if gte IE 6]>
+		<script type="text/javascript" src="/RT_HTML/RT_JQUERY.JS"></script>
+		<script type="text/javascript" src="/RT_HTML/RT_JQUERY_UI_DRAG.JS"></script>
+	<![endif]-->
+    <script type="text/javascript" src="/RT_HTML/RT_LIB.JS"></script>	
+	<script type="text/javascript" src="/RT_HTML/RT_APP.JS"></script>
+	<script type="text/javascript" src="/RT_HTML/RT_BUTTONS.JS"></script>
+	<script type="text/javascript" src="/RT_HTML/RT_MESSAGE.JS"></script>
+    <script type="text/javascript" src="/RT_HTML/RT_LOCALE.JS"></script>      
+    <script type="text/javascript" src="/RT_HTML/RT_LOCALE_COMMON.JS"></script>    
+    <script type="text/javascript" src="/RT_HTML/RT_GAME.JS"></script>    
+    <script type="text/javascript" src="/RT_HTML/RT_PREFS.JS"></script>
+    <script type="text/javascript" src="/RT_HTML/RT_INITIAL_CHECK.JS"></script>    
+    <script type="text/javascript" src="/RT_HTML/RT_DOWNLOADER.JS"></script>    
+    <script type="text/javascript" src="/RT_HTML/RT_FASTCHECK.JS"></script>    
+    <script type="text/javascript" src="/RT_HTML/RT_FULLCHECK.JS"></script>        
+    <script type="text/javascript" src="/RT_HTML/RT_PATCHING.JS"></script>
+    <script type="text/javascript" src="/RT_HTML/RT_REPAIR.JS"></script>
+    <script type="text/javascript" src="/RT_HTML/RT_LAUNCHER.JS"></script>
+	<title>Allods Online</title>
+</head>
+<body id="launcher">
+<div id="container">
+	<iframe id="news" name="news" src="about:blank" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<iframe id="patchnotes" name="patchnotes" src="about:blank" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<iframe id="license" name="license" src="about:blank" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<iframe id="serverstatus" name="serverstatus" src="about:blank" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<div id="window-title"></div>
+	<div id="logo-container">
+		<div id="logo"></div>
+		<a href="#" id="logo-link"></a>
+	</div>
+	
+    <!--[if IE 6]>
+		<script type="text/javascript" src="/RT_HTML/RT_BELATEDPNG.JS"></script>
+		<script type="text/javascript">
+			$('#logo').css('backgroundImage', 'url(' + Locale[Locale.langs[0].value].LogoID + ')');
+			DD_belatedPNG.fix( '#logo' );
+		</script>
+	<![endif]-->
+
+	<div id="news-ajax-indicator"></div>	
+	<div id="logo-ie5"></div>
+	<div id="update-ie5"></div>	
+	
+	<div id="system-message-bg"></div>
+	<div id="system-message">
+		<div id="system-message-left"></div>
+		<span id="system-message-text"></span><img id="system-message-anim" src="/RT_HTML/IDR_IMAGES_DOTS.GIF" width="13" height="3" alt="" />
+	</div>	
+	
+<script type="text/javascript"> 
+<!--
+	if (isIE5) {
+		$('#update-ie5').show();
+		$('#news-ajax-indicator').hide();
+		$('#logo-ie5').show();
+	}
+	else {
+		$('#logo-container').show();
+		$('#news-ajax-indicator').show();
+	}
+//-->
+</script>	
+	
+	<div id="button-down"></div>
+	<div id="image-down"><div></div></div>
+	<div id="button-close"></div>
+	<div id="image-close"><div></div></div>
+
+	<div id="button-registration"></div>
+	<div id="image-registration"><div></div></div>
+	<div id="button-account"></div>
+	<div id="image-account"><div></div></div>
+	<div id="button-forum"></div>
+	<div id="image-forum"><div></div></div>
+	
+
+	<div id="container-selector-lang">
+		<div id="button-lang"></div>
+		<div id="image-lang"><div></div></div>	
+		<div id="selector-lang">
+		</div>	
+	</div>
+	
+	<div id="toolbar">
+		<div id="button-patchnotes"></div>
+		<div id="image-patchnotes"><div class="disabled"></div></div>
+		
+		<div id="button-serverstatus"></div>
+		<div id="image-serverstatus"><div class="disabled"></div></div>	
+		
+		<div id="button-prefs"></div>
+		<div id="image-prefs"><div></div></div>	
+		
+		<div id="button-license"></div>
+		<div id="image-license"><div class="disabled"></div></div>	
+
+		<div id="button-ripfiles"></div>
+		<div id="image-ripfiles"><div class="disabled"></div></div>	
+
+		<div id="button-news"></div>
+		<div id="image-news"><div class="disabled"></div></div>	
+	</div>
+	
+	<div id="button-play"></div>
+	<div id="image-play"><div></div></div>
+
+	<div id="button-update"></div>
+	<div id="image-update"><div></div></div>
+	
+	<div id="button-exit"></div>
+	<div id="image-exit"><div></div></div>	
+
+	<div id="button-super-ok"></div>
+	<div id="image-super-ok"><div></div></div>	
+
+	<div id="button-super-cancel"></div>
+	<div id="image-super-cancel"><div class="disabled"></div></div>	
+
+	<div id="status">
+		<div id="status-file"></div>
+		<div id="status-size"></div>
+		<div id="button-peersinfo"></div>
+		<div id="image-peersinfo"><div></div></div>	
+	</div>
+	<div id="progressbar">
+		<div id="progressbar-small-line"><div></div></div>
+		<div id="progressbar-big-line"><div class="light"><div></div></div><div class="line"></div></div>
+	</div>
+	
+	<div id="license-container"></div>
+	
+	<div id="peers">
+		<div id="peers-list"></div>
+		<div id="peers-title"></div>
+		<table id="peers-head" cellspacing="0" cellpadding="0">
+			<tr>
+				<th class="col1"><div></div></th>
+				<th class="col2"><div></div></th>
+				<th class="col3"><div></div></th>
+				<th class="col4"><div></div></th>
+				<th class="col5"><div></div></th>
+			</tr>
+		</table>
+		<div id="peers-body">
+		</div>
+		<div id="peers-data">
+			<div id="peers-state"></div>
+
+			<table cellpadding="0" cellspacing="0" id="peers-total">
+				<tr>
+					<td class="col1"></td><td id="peers-download-rate"></td>
+				</tr>
+				<tr>
+					<td class="col2"></td><td id="peers-upload-rate"></td>
+				</tr>
+				<tr>
+					<td class="col3"></td><td id="peers-uploaded"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div id="ripfiles">
+		<div id="ripfiles-list"></div>
+		<div id="ripfiles-title"></div>
+		<table id="ripfiles-head" cellspacing="0" cellpadding="0">
+			<tr>
+				<th class="col1"><div></div></th>
+				<th class="col2"><div></div></th>
+				<th class="col3"><div></div></th>
+			</tr>
+		</table>
+		<div id="ripfiles-body"></div>
+		<div id="ripfiles-data">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td class="row1"></td><td id="ripfiles-num-files"></td>
+				</tr>
+				<tr>
+					<td class="row2"></td><td id="ripfiles-common-size"></td>
+				</tr>
+			</table>
+		</div>			
+	</div>
+	
+	<div id="prefs">
+		<div id="prefs-title"></div>
+		<div id="prefs-inner">
+			<ul id="prefs-gfx">
+				<li class="title"></li>
+				<li><span id="prefs-gfx-fullscreen-text"></span><div id="prefs-gfx-fullscreen" class="checkbox"></div></li>
+				<li><span id="prefs-gfx-screen-text"></span><div id="prefs-gfx-screen" class="select"></div></li>
+				<li><span id="prefs-gfx-quality-text"></span><div id="prefs-gfx-quality" class="select"></div></li>
+			</ul>
+			<ul id="prefs-sound">
+				<li class="title"></li>
+				<li><span id="prefs-sound-unmute-text"></span><div id="prefs-sound-unmute" class="checkbox"></div></li>
+			</ul>
+			<ul id="prefs-game">
+				<li class="title"></li>
+				<li><span id="prefs-game-movement-mouse-text"></span><div id="prefs-game-movement-mouse" class="checkbox"></div></li>
+			</ul>
+			<div id="button-prefs-reset"></div>
+			<div id="image-prefs-reset"><div></div></div>
+			<div id="button-prefs-apply"></div>
+			<div id="image-prefs-apply"><div></div></div>
+			<div id="button-prefs-cancel"></div>
+			<div id="image-prefs-cancel"><div></div></div>		
+		</div>
+	</div>	
+	
+	
+	<div id="message-bg"></div>
+	<div id="message">
+		<div id="message-title"></div>
+		<div id="message-icon"><div class="question"></div></div>
+        <div id="message-timing"></div>			
+		<div id="message-body">
+			<div id="message-body-bg"></div>
+			<div id="message-text"></div>
+			<div id="message-control">
+				<div id="button-ok"></div>
+				<div id="image-ok"><div></div></div>
+				<div id="button-cancel"></div>
+				<div id="image-cancel"><div></div></div>
+				<div id="button-shut"></div>
+				<div id="image-shut"><div></div></div>								
+				<div id="button-abort"></div>
+				<div id="image-abort"><div></div></div>	
+				<div id="button-retry"></div>
+				<div id="image-retry"><div></div></div>
+				<div id="button-skip"></div>
+				<div id="image-skip"><div></div></div>											
+			</div>
+			<div id="message-bottom"></div>
+		</div>
+	</div>
+	<input id="set-focus" type="text" value="" />	
+	<div id="window-copyright">&copy; 2008&ndash;<span id="window-year">2009</span> <span id="copyright-nival"></span></div>
+</div>
+</body>
+</html>

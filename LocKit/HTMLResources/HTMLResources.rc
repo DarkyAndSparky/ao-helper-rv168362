@@ -1,0 +1,166 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_HTML
+//
+RT_LOCALE_COMMON.JS	RT_HTML											"js\\LocaleCommon.js"
+RT_LOCALE.CSS           RT_HTML                    "css\\locale.css"
+RT_LIB.JS           RT_HTML                    "js\\lib.js"
+RT_APP.JS           RT_HTML                    "js\\app.js"
+RT_JQUERY.JS        RT_HTML                    "js\\jquery.js"
+RT_JQUERY_IE5.JS        RT_HTML                "js\\jquery_IE5.js"
+RT_BELATEDPNG.JS    RT_HTML										"js\\DD_belatedPNG_0.0.7a.js"
+RT_JQUERY_UI_DRAG.JS	RT_HTML									"js\\jquery-ui-1.7.1.custom.min.js"
+RT_MESSAGE.JS RT_HTML													"js\\Message.js"
+RT_BUTTONS.JS RT_HTML													"js\\Buttons.js"
+RT_LOCALE.JS RT_HTML														"js\\Locale.js"
+RT_MAIN.CSS        RT_HTML                    "css\\main.css"
+
+IDR_IMAGES_SM_RIGHT.GIF RT_HTML                 "images\\sm_right.gif"
+IDR_IMAGES_SM_LEFT.GIF RT_HTML									"images\\sm_left.gif"
+IDR_IMAGES_LOAD.GIF RT_HTML											"images\\load.gif"
+IDR_IMAGES_DOTS.GIF RT_HTML											"images\\dots.gif"
+IDR_BTN_SHUT.GIF RT_HTML												"images\\buttons\\shut.gif"
+IDR_BTN_SHUT_DOWN.GIF RT_HTML										"images\\buttons\\shut_down.gif"
+IDR_BTN_SHUT_HOVER.GIF RT_HTML									"images\\buttons\\shut_hover.gif"
+IDR_IMAGE_BG.JPG        RT_HTML                 "images\\bg.jpg"
+IDR_IMAGE_BG_NOACTIVE.JPG        RT_HTML				"images\\bg_noactive.jpg"
+IDR_IMAGE_BG_LIST_PEERS.JPG RT_HTML             "images\\bg_list_peers.jpg"
+IDR_IMAGE_LIST_PEERS_TD.JPG RT_HTML             "images\\bg_list_peers_td.jpg"
+IDR_IMAGE_BG_LIST_RIPFILES.JPG RT_HTML          "images\\bg_list_ripfiles.jpg"
+IDR_IMAGE_BG_LIST_RIPFILES_TD.JPG RT_HTML       "images\\bg_list_ripfiles_td.jpg"
+IDR_IMAGE_BG_PEERS.JPG  RT_HTML                 "images\\bg_peers.jpg"
+IDR_IMAGES_PROGRESSBAR.PNG RT_HTML              "images\\progressbar.png"
+IDR_IMAGES_PROGRESSBAR2.PNG RT_HTML             "images\\progressbar2.png"
+IDR_IMAGES_PROGRESSBAR_SMALL_LINE.GIF RT_HTML   "images\\progressbar_small_line.gif"
+IDR_IMAGES_PROGRESSBAR_SMALL_LINE_STOP.PNG RT_HTML   "images\\progressbar_small_line_stop.png"
+IDR_IMAGES_PROGRESSBAR_BIG_LINE.GIF RT_HTML     "images\\progressbar_big_line.gif"
+IDR_IMAGES_PROGRESSBAR_BIG_LINE_STOP.PNG RT_HTML		"images\\progressbar_big_line_stop.png"
+IDR_MSGBOX_BODY.GIF     RT_HTML                 "images\\messagebox\\body.gif"
+IDR_MSGBOX_BOTTOM.GIF   RT_HTML                 "images\\messagebox\\bottom.gif"
+IDR_MSGBOX_ICON_ERROR.GIF    RT_HTML            "images\\messagebox\\icon_error.gif"
+IDR_MSGBOX_ICON_QUESTION.GIF RT_HTML            "images\\messagebox\\icon_question.gif"
+IDR_MSGBOX_ICON_EXCLAM.GIF RT_HTML            "images\\messagebox\\icon_warning.gif"
+IDR_MSGBOX_ICON_WARNING.GIF  RT_HTML            "images\\messagebox\\icon_warning.gif"
+IDR_MSGBOX_ICON_TIMING.GIF RT_HTML              "images\\messagebox\\icon_timing.gif"
+IDR_MSGBOX_TITLE.GIF    RT_HTML                 "images\\messagebox\\title.gif"
+IDR_TOOLBAR_PATCHNOTES.GIF RT_HTML              "images\\toolbar\\patchnotes.gif"
+IDR_TOOLBAR_PATCHNOTES_NOACTIVE.GIF RT_HTML     "images\\toolbar\\patchnotes_noactive.gif"
+IDR_TOOLBAR_PATCHNOTES_ACTIVE.GIF RT_HTML       "images\\toolbar\\patchnotes_active.gif"
+IDR_TOOLBAR_PATCHNOTES_DISABLED.GIF RT_HTML     "images\\toolbar\\patchnotes_disabled.gif"
+IDR_TOOLBAR_PATCHNOTES_DOWN.GIF RT_HTML         "images\\toolbar\\patchnotes_down.gif"
+IDR_TOOLBAR_PATCHNOTES_HOVER.GIF RT_HTML        "images\\toolbar\\patchnotes_hover.gif"
+IDR_TOOLBAR_LICENSE.GIF RT_HTML                 "images\\toolbar\\license.gif"
+IDR_TOOLBAR_LICENSE_NOACTIVE.GIF RT_HTML        "images\\toolbar\\license_noactive.gif"
+IDR_TOOLBAR_LICENSE_ACTIVE.GIF RT_HTML          "images\\toolbar\\license_active.gif"
+IDR_TOOLBAR_LICENSE_DISABLED.GIF RT_HTML        "images\\toolbar\\license_disabled.gif"
+IDR_TOOLBAR_LICENCE_DOWN.GIF RT_HTML            "images\\toolbar\\license_down.gif"
+IDR_TOOLBAR_LICENCE_HOVER.GIF RT_HTML           "images\\toolbar\\license_hover.gif"
+IDR_TOOLBAR_NEWS.GIF    RT_HTML                 "images\\toolbar\\news.gif"
+IDR_TOOLBAR_NEWS_NOACTIVE.GIF RT_HTML           "images\\toolbar\\news_noactive.gif"
+IDR_TOOLBAR_NEWS_ACTIVE.GIF RT_HTML             "images\\toolbar\\news_active.gif"
+IDR_TOOLBAR_NEWS_DISABLED.GIF RT_HTML           "images\\toolbar\\news_disabled.gif"
+IDR_TOOLBAR_NEWS_DOWN.GIF RT_HTML               "images\\toolbar\\news_down.gif"
+IDR_TOOLBAR_NEWS_HOVER.GIF RT_HTML              "images\\toolbar\\news_hover.gif"
+IDR_TOOLBAR_PREFS.GIF   RT_HTML                 "images\\toolbar\\prefs.gif"
+IDR_TOOLBAR_PREFS_NOACTIVE.GIF RT_HTML          "images\\toolbar\\prefs_noactive.gif"
+IDR_TOOLBAR_PREFS_ACTIVE.GIF RT_HTML            "images\\toolbar\\prefs_active.gif"
+IDR_TOOLBAR_PREFS_DISABLED.GIF RT_HTML          "images\\toolbar\\prefs_disabled.gif"
+IDR_TOOLBAR_PREFS_DOWN.GIF RT_HTML              "images\\toolbar\\prefs_down.gif"
+IDR_TOOLBAR_PREFS_HOVER.GIF RT_HTML             "images\\toolbar\\prefs_hover.gif"
+IDR_TOOLBAR_SERVER.GIF  RT_HTML                 "images\\toolbar\\server.gif"
+IDR_TOOLBAR_SERVER_DISABLED.GIF RT_HTML         "images\\toolbar\\server_disabled.gif"
+IDR_TOOLBAR_SERVER_DOWN.GIF RT_HTML             "images\\toolbar\\server_down.gif"
+IDR_TOOLBAR_SERVER_HOVER.GIF RT_HTML            "images\\toolbar\\server_hover.gif"
+IDR_TOOLBAR_SERVER_NOACTIVE.GIF RT_HTML         "images\\toolbar\\server_noactive.gif"
+IDR_TOOLBAR_SERVER_ACTIVE.GIF RT_HTML           "images\\toolbar\\server_active.gif"
+IDR_TOOLBAR_VERSION.GIF RT_HTML                 "images\\toolbar\\version.gif"
+IDR_TOOLBAR_VERSION_NOACTIVE.GIF RT_HTML        "images\\toolbar\\version_noactive.gif"
+IDR_TOOLBAR_VERSION_ACTIVE.GIF RT_HTML          "images\\toolbar\\version_active.gif"
+IDR_TOOLBAR_VERSION_DISABLED.GIF RT_HTML        "images\\toolbar\\version_disabled.gif"
+IDR_TOOLBAR_VERSION_DOWN.GIF RT_HTML            "images\\toolbar\\version_down.gif"
+IDR_TOOLBAR_VERSION_HOVER.GIF RT_HTML           "images\\toolbar\\version_hover.gif"
+IDR_IMAGES_BLUE_LIGHT.PNG RT_HTML               "images\\blue_light.png"
+IDR_BTN_PEERS.GIF       RT_HTML                 "images\\buttons\\peers.gif"
+IDR_BTN_PEERS_HOVER.GIF RT_HTML                 "images\\buttons\\peers_hover.gif"
+IDR_BTN_PEERS_NOACTIVE.GIF RT_HTML              "images\\buttons\\peers_noactive.gif"
+IDR_BTN_PEERS_ACTIVE.GIF RT_HTML                "images\\buttons\\peers_active.gif"
+IDR_BTN_PEERS_DISABLED.GIF RT_HTML              "images\\buttons\\peers_disabled.gif"
+IDR_BTN_PEERS_DOWN.GIF  RT_HTML                 "images\\buttons\\peers_down.gif"
+IDR_BTN_CLOSE.GIF       RT_HTML                 "images\\buttons\\close.gif"
+IDR_BTN_CLOSE_DOWN.GIF  RT_HTML                 "images\\buttons\\close_down.gif"
+IDR_BTN_CLOSE_HOVER.GIF RT_HTML                 "images\\buttons\\close_hover.gif"
+IDR_BTN_CLOSE_NOACTIVE.GIF RT_HTML              "images\\buttons\\close_noactive.gif"
+IDR_BTN_DOWN.GIF        RT_HTML                 "images\\buttons\\down.gif"
+IDR_BTN_DOWN_DOWN.GIF   RT_HTML                 "images\\buttons\\down_down.gif"
+IDR_BTN_DOWN_HOVER.GIF  RT_HTML                 "images\\buttons\\down_hover.gif"
+IDR_BTN_DOWN_NOACTIVE.GIF  RT_HTML              "images\\buttons\\down_noactive.gif"
+IDR_TOOLBAR_LANG.GIF       RT_HTML							"images\\toolbar\\lang.gif"
+IDR_TOOLBAR_LANG_HOVER.GIF RT_HTML							"images\\toolbar\\lang_hover.gif"
+IDR_TOOLBAR_LANG_ACTIVE.GIF RT_HTML							"images\\toolbar\\lang_active.gif"
+IDR_TOOLBAR_LANG_DISABLED.GIF  RT_HTML					"images\\toolbar\\lang_disabled.gif"
+IDR_TOOLBAR_SELECTOR_BOTTOM.PNG  RT_HTML				"images\\toolbar\\selector_bottom.png"
+IDR_TOOLBAR_SELECTOR_TOP.PNG  RT_HTML						"images\\toolbar\\selector_top.png"
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
